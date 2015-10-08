@@ -1,0 +1,31 @@
+$gold1: #DDCBB9;
+$gold2: #AEA67F;
+$gold3: #BBAE99;
+$gold4: #6D595F;
+$gold5: #E3D5BF;
+
+
+
+$grey-base:              #000;
+$grey-darker:            lighten($grey-base, 13.5%); // #222
+$grey-dark:              lighten($grey-base, 20%);   // #333
+$grey:                   lighten($grey-base, 33.5%); // #555
+$grey-light:             lighten($grey-base, 46.7%); // #777
+$grey-lighter:           #ccc; // #777
+$grey-lightest:          lighten($grey-base, 93.5%); // #eee
+$white: #fff;
+
+
+$font-size-base: 15px;
+$font-size-med: 18px;
+$font-size-large: 21px;
+$font-size-xl: 24px;
+$font-size-xxl: 30px;
+$font-size-xxxl: 36px;
+
+// break points:
+$width-sm: 568px;
+$width-md: 768px;
+$width-lg: 1024px;
+$width-xl: 1280px;
+

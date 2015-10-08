@@ -1,0 +1,90 @@
+#plugins{
+	
+	&.no-fixed-sidebar{
+		.sidebar{		
+			@media screen and (min-width: $width-md){
+				position: static;
+			}
+		}
+		.content{
+			@media screen and (min-width: $width-md){
+				margin-left: 0;
+			}
+		}
+	}
+
+	.sidebar{
+		
+		@media screen and (min-width: $width-md){
+			position: fixed;
+	    	top: 0;
+	    	bottom: 0;
+	    	padding-top: 50px;
+	    	.header{
+	    		margin: 50% 20px 20px;
+	    	}
+	    }
+
+		background-color: $gold4;
+		h1{
+			color: $white;
+		}
+		h2{
+			color: $gold3;
+		}
+	}
+	.content{
+		@media screen and (min-width: $width-md){
+			margin-left: 25%;
+			padding: 30px;
+		}
+	}
+	.back-link{
+		margin-bottom: 20px;
+    	display: inline-block;
+	}
+	.plugin:not(:last-child){
+		margin-bottom: 20px;
+    	padding-bottom: 10px;
+    	border-bottom: 1px solid rgba(227,213,191,0.7);
+	}
+	.plugin-views{
+		margin-top: 8px;
+		margin-right: 6px;
+		a{
+			background-color: $gold3;
+    		padding: 3px 10px;
+    		display: inline-block;
+    		text-decoration: none;
+    		font-weight: normal;
+    		&:hover{
+    			text-decoration: underline;
+    		}
+		}
+	}
+	.plugin-demo{
+		margin-bottom: 20px;
+    	margin-top: 20px;
+	}
+	.steps{
+		ol{
+		    list-style: decimal inside;
+		    font-size: $font-size-large;
+		    p, pre{
+		    	font-size: $font-size-base;
+		    	margin-left: 20px;
+		    }
+		    pre{
+		    	background-color: $grey-lightest;
+    			padding: 20px;
+		    	margin-bottom: 14px;
+		    	overflow: initial;
+		    	line-height: 17px;
+    			font-size: 15px;
+    			font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    			white-space: pre-wrap;
+		    }
+		}
+	}
+
+}

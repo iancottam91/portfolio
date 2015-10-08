@@ -1,0 +1,202 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "variables";
+@import "typeog";
+
+//pages
+@import "plugins";
+@import "plugins/timeline";
+
+*{
+	box-sizing: border-box;
+}
+
+.pure-g{
+	margin-bottom: 20px;
+}
+
+.top-nav{
+	background-color: $gold3;
+	padding: 15px;
+	position: relative;
+    z-index: 99;
+	// margin-bottom: 10px;
+	.menu-heading{
+		font-size: $font-size-large;
+	}
+	a{
+		color: #333;
+	}
+	.menu-list{
+		font-size: 18px;
+		float: right;
+		>li{
+			display: inline-block;
+			padding-left: 10px;
+		}
+	}
+}
+.pure-g #intro-container{
+	text-align: center;
+	background-color: $gold4;
+	padding: 100px;
+	height: 400px;
+	.btn{
+		display: inline-block;
+    	margin-top: 30px;
+    	padding: 10px 20px;
+    	text-transform: uppercase;
+    	border-width: 2px;
+    	font-size: $font-size-xl;
+	}
+}
+
+.jumbo-box{
+	color: white;
+	font-size: 35px;
+	> span{
+	    padding: 40px 100px;
+	    border: 2px solid white;
+    	border-radius: 5px;
+    	display: inline-block;
+    	line-height: 50px;
+	}
+}
+.featured-content{
+	margin-top: 40px;
+	h2{
+		text-align: center;
+		text-transform: uppercase;
+		color: $grey;
+		margin-bottom: 40px;
+	}
+	.thumbnail{
+		text-align: center;
+		position: relative;
+		img{
+			width: 90%;
+			width: calc(100% - 20px);
+			border: 1px solid $grey-lighter;
+		}
+
+		// css effects:
+		.view {
+		    // float: left;
+		    overflow: hidden;
+		    // position: relative;
+		    // text-align: center;
+		    
+		    // cursor: default;
+		    // background: $white url(../images/bgimg.jpg) no-repeat center center
+		}
+		.view .mask{
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    overflow: hidden;
+		    top: 0;
+		    left: 0
+		}
+		.view img {
+		    // display: block;
+		    position: relative
+		}
+		.view h2 {
+		    text-transform: uppercase;
+		    color: $white;
+		    // text-align: center;
+		    // position: relative;
+		    font-size: $font-size-med;
+    		letter-spacing: 0.5px;
+    		padding: 10px;
+    		background: rgba(109, 89, 95, 0.95);
+    		background: rgba(0, 0, 0, 0.75);
+		    margin: 20px 0 0 0
+		}
+		.view p {
+		    font-family: Georgia, serif;
+		    font-style: italic;
+		    font-size: $font-size-base;
+    		line-height: $font-size-med;
+		    // position: relative;
+		    color: $grey-darker;
+		    padding: 18px 20px 20px;
+		    text-align: center;
+		    
+		    @media screen and (min-width: $width-xl){
+		    	margin-top: 20px;
+    			margin-bottom: 10px;
+		    }
+
+		    // text-shadow: 1px 1px 1px $white;
+		}
+		.view a.info {
+		    display: inline-block;
+		    text-decoration: none;
+		    padding: 10px 20px;
+		    background: $gold4;
+		    background: $grey-dark;
+		    color: $white;
+		    text-transform: uppercase;
+		    border: 2px solid $white;
+		    border-radius: 5px;
+		    font-size: $font-size-med;
+		    &:hover{
+		    	text-decoration: underline;
+		    }
+		}
+	
+		.view-first:hover{
+			box-shadow: 1px 1px 2px $grey-lighter;
+		}
+		.view-first img { 
+		    transition: all 0.2s linear;
+		}
+		.view-first .mask {
+		    opacity: 0;
+		    background-color: rgba(187, 174, 153, 0.81);
+		    transition: all 0.4s ease-in-out;
+		}
+		.view-first h2 {
+		    transform: translateY(-100px);
+		    opacity: 0;
+		    transition: all 0.2s ease-in-out;
+		}
+		.view-first p { 
+		    transform: translateY(100px);
+		    opacity: 0;
+			transition: all 0.2s linear;
+		}
+		.view-first a.info{
+		    opacity: 0;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.view-first:hover img { 
+			transform: scale(1.1);
+		} 
+		.view-first:hover .mask { 
+			opacity: 1;
+		}
+		.view-first:hover h2,
+		.view-first:hover p,
+		.view-first:hover a.info {
+		    opacity: 1;
+		    transform: translateY(0px);
+		}
+		.view-first:hover p {
+		    transition-delay: 0.1s;
+		}
+		.view-first:hover a.info {
+		    transition-delay: 0.2s;
+		}
+
+
+
+	}
+}

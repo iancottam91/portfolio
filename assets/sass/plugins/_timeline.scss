@@ -1,0 +1,567 @@
+$col_orange     : #E98300;
+$col_red          : #c11;
+$col_white        : #fff;
+$col_black        : #000;
+$col_magenta      : #8B1C40;
+
+$linkColor          : $col_red;
+$messageNegativeBorderColor     : #c20209;
+$bgColor                        : $col_white;
+$mainColor                      : $gold4;
+$glossaryBorder                 : $col_orange;
+$timelineBg     : rgba(227,213,191,0.75); // gold5 at 0.75 opacity
+
+
+@import "compass/css3";
+
+.provenance-trail
+{
+  filter: alpha(opacity=0);
+  opacity: 0;
+  height: 0;
+  // display: none;
+  .guidance-box
+  {
+    display: none;
+  }
+}
+
+.accessibleText {
+    position: absolute;
+    left: -999em;
+    width: 1px;
+    overflow: hidden;
+}
+
+.provenance-trail #timeline-wrapper #timelineData ol li {
+  min-width: 140px;
+}
+
+.provenance-trail #timeline-wrapper #timelineData ol.time-point.above .point-in-time {
+  width: 140px;
+}
+
+.provenance-trail {
+  padding: 0 0 5px 0;
+  background: $timelineBg;
+  width: 715px;
+
+  *{
+    box-sizing: content-box;
+  }
+
+  // prototype styles
+  .timeline.calendar
+  {
+    padding-bottom: 3px;
+    .btn
+    {
+      height: 30px;
+      line-height: 28px;
+    }
+  }
+
+  h2
+  {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+
+
+  #timeline-wrapper
+  {
+    position: relative;
+    overflow: auto;
+              *
+              {
+                margin: 0;
+                // float: none;
+                clear: none;
+                list-style: none;
+              }
+
+              &.with-point-time
+              {
+                padding-top: 30px;
+              }
+
+              #timelineData
+              {
+
+                .point-in-time
+                {
+                  position: absolute;
+                  right: -50px;
+                  top: -60px;
+                  width: 110px;
+                  padding-top: 0;
+                  z-index: 99;
+
+
+                  .label, .value
+                  {
+                    background: $mainColor;
+                    color: $bgColor;
+                    line-height: 20px;
+                    padding: 5px 10px;
+                    text-align: center;
+                    @include border-radius(5px 5px 0 0);
+                  }
+                  .value
+                  {
+                    background: #fff;
+                    @include border-radius(0 0 5px 5px);
+                    color: #333;
+                  }
+                  .timeline-point-in-time-bottom
+                  {
+                    height: 15px;
+                  }
+                }
+
+                float: left;
+
+                ol
+                {
+                  float: left;
+                  min-height: 84px;
+                  // padding-left: 50px;
+                  padding-right: 90px;
+                  width: 100%;
+                  padding-bottom: 20px;
+                  padding-top: 20px;
+
+
+
+                  &.time-point
+                  {
+                    li
+                    {
+                      margin-top: 70px;
+                    }
+
+                    &.above,
+                    {
+
+                      .point-in-time
+                      {
+                        top: -74px;
+                        right: 0;
+                        width: 180px;
+                        > div
+                        {
+                          width: 100px;
+                          margin: 0 auto;
+                        }
+                      }
+                      li
+                      {
+                        margin-top: 85px;
+
+                        // bit dirty
+                        &:only-child
+                        {
+                          .point-in-time
+                          {
+                            left: 57px;
+                            // override js style
+                            width: 100px !important;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  li
+                  {
+
+                    line-height: initial;
+                    padding:15px 0 0 0;
+                    float: left;
+                    margin-top:30px;
+                    min-width: 180px;
+                    position: relative;
+
+                    > a
+                    {
+                      color: $col_black;
+                      float: left;
+                      font-weight: bold;
+                      width: 100%;
+                      display: block;
+                      text-align: center;
+                      padding-top: 20px;
+                      height: 40px;
+                      &:hover
+                      {
+                        text-decoration: underline;
+                      }
+
+                    }
+
+
+                    .timeline-runner, .timeline-runner-current
+                    {
+                      float: left;
+                      width: 100%;
+                      height: 7px;
+                      // position: relative;
+                      // z-index: -1;
+                    }
+
+                    .timeline-pin, .timeline-pin-selected, .timeline-pin-discontinued
+                    {
+                      height: 35px;
+                      width: 35px;
+                      display: block;
+                      margin: 0 auto;
+                      position: absolute;
+                      top: 0;
+                      left: 50%;
+                      margin-left: -20px;
+                      z-index: 90;
+                    }
+
+                    .timeline-date
+                    {
+                      width: 100%;
+                      line-height: 20px;
+                    }
+
+                    &:first-child
+                    {
+                      .timeline-runner
+                      {
+                        width: 50%;
+                        float: right;
+
+                      }
+                      &.version-selected
+                      {
+                        .timeline-runner
+                        {
+                          // &:after
+                          .timeline-runner-extension
+                          {
+                            // content: "";
+                            background: url("../img/timeline/runner-current.png");
+                            height: 7px;
+                            width: 200%;
+                            display: block;
+                            position: relative;
+                            left: 0%;
+                            z-index: 49;
+                          }
+                        }
+                      }
+
+                    }
+
+                    // arrow styles
+                    &:last-child
+                    {
+                      .timeline-runner
+                      {
+                        width: 50%;
+                        &:after
+                        {
+                          content: "";
+                          width: 180%;
+                          height: 17px;
+                          display: block;
+                          position: relative;
+                          top: -5px;
+                          left: 100%;
+                          background: url("../img/timeline/generic-arrow.png");
+                          background-position: 100%;
+                        }
+                      }
+
+                      &.version-discontinued
+                      {
+                        .timeline-runner
+                        {
+                          &:after
+                          {
+                            content: none;
+                          }
+                        }
+
+                        a
+                        {
+                          // color: $messageNegativeBorderColor;
+                        }
+                      }
+
+                      &.version-selected
+                      {
+                        .timeline-runner
+                        {
+                          &:after
+                          {
+                            content: none;
+                          }
+                          .timeline-runner-extension
+                          {
+                            background: url("../img/timeline/version-selected.png");
+                            background-position: 100%;
+
+                            //escape styles from line 733 here
+                            height: 17px;
+                            left: 100%;
+                            width: 180%;
+                            top: -5px;
+                          }
+                        }
+                      }
+
+                      &.prospective, &.prospective-selected
+                      {
+                        .timeline-runner
+                        {
+                          &:after
+                          {
+                            background: url("../img/timeline/prospective.png");
+                            background-position: 100%;
+                          }
+                        }
+                      }
+
+                      // special case where point of time is at the end of the list
+                      // &.point-in-time
+                      // {
+
+                        //  left: 0;
+                        //  z-index: 0;
+
+                        //  > div
+                        //  {
+                          //    width: 100px;
+                          //          margin: 0 auto;
+                        //  }
+
+                        //  &:after
+                        //  {
+                          //    content: "";
+                          //    width: 200%;
+                          //    height: 17px;
+                          //    display: block;
+                          //    position: relative;
+                          //    top: -6px;
+                          //    left: -50%;
+                          //    background: url("timeline/version-selected.png");
+                          //    background-position: 100%;
+                        //  }
+                      // }
+
+                    }
+
+                    // Handle the single point in time
+                    &:only-child
+                    {
+                      .timeline-pin-selected, .timeline-pin-discontinued
+                      {
+                        left: 20%;
+                      }
+                      &.version-discontinued
+                      {
+                        a
+                        {
+                          padding-top: 30px;
+                        }
+                      }
+                      &.version-selected, &.prospective-selected
+                      {
+                        .timeline-runner
+                        {
+                          // &:after
+                          .timeline-runner-extension
+                          {
+                            width: 480px;
+                            left: 20%;
+                          }
+                        }
+                      }
+                      &.prospective-selected
+                      {
+                        .timeline-runner
+                        {
+                          &:after
+                          {
+                            content: none;
+                          }
+                          .timeline-runner-extension
+                          {
+                              background: url("../img/timeline/prospective.png");
+                              background-position: 100%;
+                              height: 17px;
+                              top: -5px;
+                              display: block;
+                              position: relative;
+                              z-index: 49;
+
+
+                          }
+                        }
+                      }
+                      .timeline-runner
+                      {
+                        width: 0;
+                        float: none;
+                      }
+                      > a
+                      {
+                        width: 40%;
+                      }
+                      .point-in-time
+                      {
+                        bottom: 76px;
+                        left: 50%;
+                      }
+                    }
+
+                    &.version-selected
+                    {
+                      a
+                      {
+                        color: $mainColor;
+                      }
+                      .timeline-runner
+                      {
+                        // &:after
+                        .timeline-runner-extension
+                        {
+                          content: "";
+                          background: url("../img/timeline/runner-current.png");
+                          height: 7px;
+                          width: 100%;
+                          display: block;
+                          position: relative;
+                          left: 50%;
+                          z-index: 49;
+                        }
+                      }
+                    }
+
+                  }
+                }
+              }
+
+            }
+          }
+
+
+          @import "compass/utilities/sprites";
+          @import "timeline/*.png";
+          @include all-timeline-sprites;
+
+
+          // Timeline - scroll bar
+          #scrollbar
+          {
+            height: 24px;
+            margin: 3px 11px 0 11px;
+
+            //sprite sheet ammends:
+            // &.timeline-scrollbar
+            // {
+              //  background-position: 0 -108px;
+            // }
+
+            #arrowLeft
+            {
+              float:left;
+            }
+
+            #arrowRight
+            {
+              float:right;
+            }
+            .arrow
+            {
+              display:block;
+              width:22px;
+              height: 22px;
+            }
+            #slider
+            {
+              position:relative; float:left; width: 515px; margin: 5px 0px 0px 67px;
+            }
+            .ui-slider
+            {
+              .ui-slider-handle
+              {
+                width: 133px;
+                height:22px;
+                margin-top: -5px;
+                margin-left: -66px;
+                position:absolute;
+                z-index: 2;
+              }
+            }
+            .ui-slider-horizontal
+            {
+              height: 0.8em;
+            }
+          }
+
+
+
+          .widget
+          {
+            h4
+            {
+              margin-bottom:3px;
+            }
+            .fa
+            {
+              display: inline-block;
+              height: 16px;
+              line-height: 17px;
+              width: 16px;
+            }
+
+            input[type="radio"], input[type="checkbox"]
+            {
+              margin-right: 7px;
+            }
+
+            a
+            {
+              color: $linkColor;
+              &:hover
+              {
+                text-decoration: underline;
+              }
+            }
+          }
+          .links
+          {
+            margin-bottom: 15px;
+          }
+
+
+
+          .page.search-results {
+            .item-list-sort {
+              background: none;
+              padding: 8px 0;
+              .search-numbers {
+                font-weight: bold;
+              }
+              .rx {
+                margin: 0;
+              }
+            }
+            .col_cx {
+              .pagination {
+                margin: 20px 0 0;
+              }
+            }
+          }
+
+          // Display none group.
+          #dialog-email, .hidden
+          {
+            display: none;
+          }
