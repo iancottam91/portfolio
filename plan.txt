@@ -1,0 +1,29 @@
+HOME: 
+
+- Same home page design
+- Swap 'Live Examples' to 'Recent Web Builds'
+* FCA
+* BP
+* Tennis TV
+* Doctors Mess
+* Smirnoff Mould
+
+* LDRI
+* Croydon Intranet
+* Kates Closet
+
+- Get Started -> My projects 
+
+My Projects:
+
+- More in depth look at website and projects i've been involved with
+
+My Experince:
+- Same design as 'Plugins'
+- List of Companies I've worked at, Logo Company name, role
+- Clicking on one brings the 'Company Details' - List more projects here, technologies learnt, link back to My Projects
+- Side projects (could filter by work and side)
+
+Contact me:
+- My contact details
+
