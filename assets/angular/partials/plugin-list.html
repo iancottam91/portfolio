@@ -1,0 +1,27 @@
+<div id="plugins" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">Our JavaScript Plugins</h1>
+            <h2 class="brand-tagline">View the code, explore the options and download the plugins</h2>
+        </div>
+    </div>
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <div class="plugins">
+            	<section class="plugin" ng-repeat="plugin in plugins">
+                    <header class="plugin-header">
+                        <h2 class="plugin-title">{{plugin.title}}</h2>                    
+                    </header>
+                    <div class="plugin-description">
+                        <p>{{plugin.desc}}</p>
+                        <div class="plugin-views">
+                        	<a href="#/plugins/{{plugin.title.toLowerCase().replace(' ', '-')}}">Demo</a>
+                        	<!-- <a href="plugin-timeline-options.php">Options</a> -->
+                        	<a href="assets/downloads/timeline.zip">Download</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
