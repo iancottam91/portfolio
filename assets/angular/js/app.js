@@ -4,7 +4,7 @@
 // - pluginControllers: our custom module
 
 var pluginApp = angular.module('pluginApp', ['ngRoute',
-  'pluginControllers', 'oc.lazyLoad']);
+  'pluginControllers', 'pluginDirectives' , 'oc.lazyLoad']);
 
 
 // define our routes with the $routeProvider from ngRoute
@@ -12,15 +12,15 @@ pluginApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {
-        templateUrl : '/assets/angular/partials/home.html',
+        templateUrl : 'assets/angular/partials/home.html',
         controller  : 'HomeCtrl'
       }).
       when('/plugins', {
-        templateUrl: '/assets/angular/partials/plugin-list.html',
+        templateUrl: 'assets/angular/partials/plugin-list.html',
         controller: 'PluginsCtrl'
       }).
       when('/plugins/:pluginTitle', {
-        templateUrl: '/assets/angular/partials/plugin-detail.html',
+        templateUrl: 'assets/angular/partials/plugin-detail.html',
         controller: 'PluginDetailCtrl'
       }).
       otherwise({

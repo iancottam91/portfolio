@@ -8,9 +8,15 @@ var pluginControllers = angular.module('pluginControllers', []);
 
 pluginControllers.controller('HomeCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
-    
+    $scope.site = {
+      title: 'Naomi',
+      desc: '1600 Amphitheatre',
+      url: '',
+      imgSrc: ''
+    };
 
-  }]);
+  }])
+;
 
 
 pluginControllers.controller('PluginsCtrl', ['$scope', '$routeParams', '$http',
