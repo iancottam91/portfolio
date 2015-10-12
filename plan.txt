@@ -1,22 +1,38 @@
 HOME: 
 
-- Same home page design
-- Swap 'Live Examples' to 'Recent Web Builds'
-* FCA
-* BP
-* Tennis TV
-* Doctors Mess
-* Smirnoff Mould
+1) FCA
+2) BP
+3) Tennis TV
+4) Doctors Mess
+5) Smirnoff Mould
+6) LDRI
+7) Croydon Intranet
+8) Kates Closet
+9) BP offline
 
-* LDRI
-* Croydon Intranet
-* Kates Closet
+* If they can't link to live, they should link to the project description page
+
+TO DO:
+
+- Skills jumble:
+
+Present keywords of skills across a page
+Click a skill to load the details of the project for that skill
+
+- Add data to mongo DB
+
+
+
+
+
 
 - Get Started -> My projects 
 
 My Projects:
 
 - More in depth look at website and projects i've been involved with
+- Project list
+- Filter by skill
 
 My Experince:
 - Same design as 'Plugins'

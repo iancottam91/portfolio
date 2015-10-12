@@ -23,20 +23,20 @@ pluginControllers.controller('HomeCtrl', ['$scope', '$routeParams', '$http',
       imgSrc: '/assets/img/fca.jpg'
     },
     {
-      title: 'Site 2',
+      title: 'Tennis TV',
+      desc: 'Home to live streaming of the ATP & WTA tour. Mobile first design.',
+      url: 'https://www.handbook.fca.org.uk/',
+      imgSrc: '/assets/img/fca.jpg'
+    },
+    {
+      title: 'British Pharmacopoeia',
       desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
       url: 'https://www.handbook.fca.org.uk/',
       imgSrc: '/assets/img/fca.jpg'
     },
     {
-      title: 'Site 3',
-      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
-      url: 'https://www.handbook.fca.org.uk/',
-      imgSrc: '/assets/img/fca.jpg'
-    },
-    {
-      title: 'Site 4',
-      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+      title: 'Research Legislation',
+      desc: 'Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.',
       url: 'https://www.handbook.fca.org.uk/',
       imgSrc: '/assets/img/fca.jpg'
     }
