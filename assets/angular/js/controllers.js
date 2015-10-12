@@ -8,12 +8,39 @@ var pluginControllers = angular.module('pluginControllers', []);
 
 pluginControllers.controller('HomeCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
-    $scope.site = {
-      title: 'Naomi',
-      desc: '1600 Amphitheatre',
-      url: '',
-      imgSrc: ''
-    };
+    // $scope.site = {
+    //   title: 'FCA Handbook',
+    //   desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+    //   url: 'https://www.handbook.fca.org.uk/',
+    //   imgSrc: '/assets/img/fca.jpg'
+    // };
+
+    $scope.sites = [
+    {
+      title: 'FCA Handbook',
+      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+      url: 'https://www.handbook.fca.org.uk/',
+      imgSrc: '/assets/img/fca.jpg'
+    },
+    {
+      title: 'Site 2',
+      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+      url: 'https://www.handbook.fca.org.uk/',
+      imgSrc: '/assets/img/fca.jpg'
+    },
+    {
+      title: 'Site 3',
+      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+      url: 'https://www.handbook.fca.org.uk/',
+      imgSrc: '/assets/img/fca.jpg'
+    },
+    {
+      title: 'Site 4',
+      desc: 'Navigate through tht Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing',
+      url: 'https://www.handbook.fca.org.uk/',
+      imgSrc: '/assets/img/fca.jpg'
+    }
+    ];
 
   }])
 ;
