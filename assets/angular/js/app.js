@@ -3,25 +3,33 @@
 // - ngRoute: a standard angular module
 // - pluginControllers: our custom module
 
-var pluginApp = angular.module('pluginApp', ['ngRoute',
-  'pluginControllers', 'pluginDirectives' , 'oc.lazyLoad']);
+var porfolioApp = angular.module('porfolioApp', ['ngRoute',
+  'porfolioControllers', 'porfolioDirectives' , 'oc.lazyLoad']);
 
 
 // define our routes with the $routeProvider from ngRoute
-pluginApp.config(['$routeProvider',
+porfolioApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {
         templateUrl : 'assets/angular/partials/home.html',
         controller  : 'HomeCtrl'
       }).
-      when('/plugins', {
-        templateUrl: 'assets/angular/partials/plugin-list.html',
-        controller: 'PluginsCtrl'
+      when('/projects', {
+        templateUrl: 'assets/angular/partials/projects-list.html',
+        controller: 'ProjectsCtrl'
       }).
-      when('/plugins/:pluginTitle', {
-        templateUrl: 'assets/angular/partials/plugin-detail.html',
-        controller: 'PluginDetailCtrl'
+      when('/projects/:projectTitle', {
+        templateUrl: 'assets/angular/partials/projects-detail.html',
+        controller: 'ProjectDetailCtrl'
+      }).
+      when('/experience', {
+        templateUrl: 'assets/angular/partials/experience-list.html',
+        controller: 'ExperienceCtrl'
+      }).
+      when('/experience/:experienceTitle', {
+        templateUrl: 'assets/angular/partials/experience-detail.html',
+        controller: 'ExperienceDetailCtrl'
       }).
       otherwise({
         redirectTo: '/'
@@ -30,7 +38,7 @@ pluginApp.config(['$routeProvider',
 
 
 // custom filters
-pluginApp.filter('capitalize', function() {
+porfolioApp.filter('capitalize', function() {
     return function(input) {
       return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
     }

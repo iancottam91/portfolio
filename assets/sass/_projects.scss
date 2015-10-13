@@ -1,4 +1,4 @@
-#plugins{
+#projects{
 	
 	&.no-fixed-sidebar{
 		.sidebar{		
@@ -43,12 +43,12 @@
 		margin-bottom: 20px;
     	display: inline-block;
 	}
-	.plugin:not(:last-child){
+	.project:not(:last-child){
 		margin-bottom: 20px;
     	padding-bottom: 10px;
     	border-bottom: 1px solid rgba(227,213,191,0.7);
 	}
-	.plugin-views{
+	.project-skills{
 		margin-top: 8px;
 		margin-right: 6px;
 		a{
@@ -62,28 +62,19 @@
     		}
 		}
 	}
-	.plugin-demo{
+	.project-demo{
 		margin-bottom: 20px;
     	margin-top: 20px;
 	}
-	.steps{
-		ol{
-		    list-style: decimal inside;
-		    font-size: $font-size-large;
-		    p, pre{
-		    	font-size: $font-size-base;
-		    	margin-left: 20px;
-		    }
-		    pre{
-		    	background-color: $grey-lightest;
-    			padding: 20px;
-		    	margin-bottom: 14px;
-		    	overflow: initial;
-		    	line-height: 17px;
-    			font-size: 15px;
-    			font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-    			white-space: pre-wrap;
-		    }
+	.skills-list{
+		span{
+			background-color: $gold3;
+			padding: 2px 5px;
+			margin-right: 5px;
+		}
+		.selected{
+			background-color: $gold4;
+			color: white;
 		}
 	}
 

@@ -9,7 +9,7 @@
 @import "typeog";
 
 //pages
-@import "plugins";
+@import "projects";
 // @import "plugins/timeline";
 
 *{
@@ -44,8 +44,8 @@
 .pure-g #intro-container{
 	text-align: center;
 	background-color: $gold4;
-	padding: 80px 80px 60px;
-	height: 380px;
+	padding: 60px 80px 40px;
+	height: 310px;
 	.btn{
 		display: inline-block;
     	margin-top: 30px;
@@ -60,7 +60,7 @@
 	color: white;
 	font-size: 35px;
 	> span{
-	    padding: 40px 100px;
+	    padding: 20px 100px;
 	    border: 2px solid white;
     	border-radius: 5px;
     	display: inline-block;
@@ -78,6 +78,7 @@
 	.thumbnail{
 		text-align: center;
 		position: relative;
+		margin-bottom: 20px;
 		img{
 			width: 90%;
 			width: calc(100% - 20px);
@@ -113,7 +114,7 @@
 		    // position: relative;
 		    font-size: $font-size-med;
     		letter-spacing: 0.5px;
-    		padding: 10px;
+    		padding: 5px;
     		background: rgba(109, 89, 95, 0.95);
     		background: rgba(0, 0, 0, 0.75);
 		    margin: 20px 0 0 0

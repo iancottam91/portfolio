@@ -2,10 +2,10 @@
 // it handles interactions with the view and updates the model accordingly
 
 
-var pluginDirectives = angular.module('pluginDirectives', []);
+var porfolioDirectives = angular.module('porfolioDirectives', []);
 
 
-pluginDirectives.directive('sitePanel', function() {
+porfolioDirectives.directive('sitePanel', function() {
     return {
       restrict: 'E',
       scope: {

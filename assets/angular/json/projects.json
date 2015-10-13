@@ -1,0 +1,67 @@
+[
+    {
+      "title": "FCA Handbook",
+      "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
+      "url": "https://www.handbook.fca.org.uk/",
+      "imgSrc": "/assets/img/fca.jpg",
+      "hero" : true,
+      "skills" : ["jQuery", "javaScript"]
+    },
+    {
+      "title": "Tennis TV",
+      "desc": "Home to live streaming of the ATP & WTA tour. Mobile first design.",
+      "url": "http://www.tennistv.com/",
+      "imgSrc": "/assets/img/ttv.png",
+      "hero" : true
+    },
+    {
+      "title": "British Pharmacopoeia",
+      "desc": "Browse the official standards for medicines & pharmaceuticals. Built using our publication framework with a number of custom jQuery modules.",
+      "url": "https://www.pharmacopoeia.com/",
+      "imgSrc": "/assets/img/bp.png",
+      "hero" : true
+    },
+    {
+      "title": "Research Legislation",
+      "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    },
+    {
+      "title": "Smirnoff Mould",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    },
+    {
+      "title": "Doctors Mess",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    },
+    {
+      "title": "Croydon Intranet",
+     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    },
+    {
+      "title": "Kates Closet",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    },
+    {
+      "title": "BP Offline Product",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "http://research.legislation.gov.uk/",
+      "imgSrc": "/assets/img/ldri.png",
+      "hero" : true
+    }
+          
+]

@@ -3,9 +3,9 @@ HOME:
 1) FCA
 2) BP
 3) Tennis TV
-4) Doctors Mess
+4) LDRI
 5) Smirnoff Mould
-6) LDRI
+6) Doctors Mess
 7) Croydon Intranet
 8) Kates Closet
 9) BP offline
@@ -14,13 +14,33 @@ HOME:
 
 TO DO:
 
-- Skills jumble:
+1)  Create project details page:
+-  Place focus on technologies used (skills list)!
+
+2) Filter projects by skill on projects list
+
+3) Add data to mongo DB
+
+4) Skills jumble:
 
 Present keywords of skills across a page
 Click a skill to load the details of the project for that skill
 
-- Add data to mongo DB
+Skills list:
 
+- jQuery
+- JavaScript
+- php
+- Drupal
+- Sass 
+- Compass
+- Less
+- AngularJS
+- EmberJS
+- Wordpress
+- apache
+- NW.js
+- CSS Regression Testing
 
 
 
