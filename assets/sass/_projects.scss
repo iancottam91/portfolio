@@ -62,19 +62,34 @@
     		}
 		}
 	}
+	.project-eyecatcher{
+		overflow: hidden;
+		img{
+			float: left;
+			border: solid 1px #ddd;
+			margin-right: 10px;
+			margin-bottom: 40px;
+		}
+	}
 	.project-demo{
 		margin-bottom: 20px;
     	margin-top: 20px;
 	}
 	.skills-list{
-		span{
+		span, a{
 			background-color: $gold3;
 			padding: 2px 5px;
 			margin-right: 5px;
+			text-decoration: none;
 		}
 		.selected{
 			background-color: $gold4;
 			color: white;
+		}
+	}
+	.skill-details{
+		img{
+			float: left;
 		}
 	}
 

@@ -41,6 +41,10 @@ Skills list:
 - apache
 - NW.js
 - CSS Regression Testing
+- AJAX
+- Local Storage
+
+**Could have image carousel at top of page instead**
 
 
 

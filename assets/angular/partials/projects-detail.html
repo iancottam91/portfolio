@@ -9,17 +9,28 @@
         <!-- <a class="back-link" href="#/projects">Back to projects</a> -->
         <h2 style="font-weight: bold;" class="project-title">{{project.title}}</h2>
 
-        <div style="height: 250px; width: 300px; border: 1px solid grey; display: inline-block;">Site Img</div>
-        <p style="display: inline;">Description of the site goes here</p>
-        <br>
-        <br>
-        <p class="skills-list">Click to read about a skill: <span class="selected">jQuery </span><span>JavaScript </span><span>HTML5 </span></p>
-        <div>
-            <img width="80" height="80" src="" style="margin-right: 20px;">
-            <p style="
-    display: inline-block;
-    vertical-align: top;
-">jQuery was used to post data objects to the back end .net code</p>
+<!--         <div style="height: 250px; width: 300px; border: 1px solid grey; display: inline-block;">Site Img</div> -->
+        <div class="project-eyecatcher">
+            <img src="/assets/img/fca.jpg" width="300">
+            <p style="display: inline;">Description of the site goes here</p>
+            <br>
+            <br>
+            <!-- <p style="margin-top: 20px;" class="skills-list">Click to read about a skill: <span class="selected">jQuery </span><span>JavaScript </span><span>HTML5 </span></p> -->
+            
+        </div>
+        <p style="margin-top: 20px;" class="skills-list">Click to read about a skill: 
+            <!-- <a ng-repeat="(key, value) in project.skills" href="#/projects/fca-handbook#{{key}}">{{value.humanName}}</a> -->
+            <a ng-click="changeSkill(key)" class="skill" ng-repeat="(key, value) in project.skills">{{value.humanName}}</a>
+        </p>
+
+        <!-- <p ng-repeat="(key, value) in project.skills">
+            <span>{{key}}</span>
+            <span>{{value}}</span>
+        </p> -->
+
+        <div style="margin-top: 20px;">
+            
+            <p class="skill-details" style="display: inline-block; vertical-align: top;"><img width="185" src="/assets/img/logos/{{skillOnShow}}.png" style="margin-right: 20px;">{{project.skills[skillOnShow].description}}</p>
         </div>
     </div>
 </div>

@@ -1,3 +1,19 @@
 {
-    "title" : "FCA Handbook"
- }
+    "title" : "FCA Handbook",
+    "skills" : 
+    	{
+    		"jquery" : {
+    			"humanName" : "jQuery",
+    			"description" : "jQuery was used to post data objects to the back end .net code"
+    		},    	
+    		"javascript" : {
+    			"humanName" : "JavaScript",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		},    	
+    		"html5" : {
+    			"humanName" : "HTML5",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		}
+    	}
+    
+}
