@@ -6,17 +6,27 @@
         </div>
     </div>
     <div class="content pure-u-1 pure-u-md-3-4">
-        <!-- <a class="back-link" href="#/projects">Back to projects</a> -->
+        <a class="back-link" href="#/projects">Back to projects</a>
         <h2 style="font-weight: bold;" class="project-title">{{project.title}}</h2>
 
-<!--         <div style="height: 250px; width: 300px; border: 1px solid grey; display: inline-block;">Site Img</div> -->
-        <div class="project-eyecatcher">
-            <img src="/assets/img/fca.jpg" width="300">
-            <p style="display: inline;">Description of the site goes here</p>
-            <br>
-            <br>
-            <!-- <p style="margin-top: 20px;" class="skills-list">Click to read about a skill: <span class="selected">jQuery </span><span>JavaScript </span><span>HTML5 </span></p> -->
+<!--         <div style="height: 250px; width: 300px; border: 1px solid grey; display: inline-block;">Site Img</div> -->       
+
+        <div class="project-eyecatcher" ng-switch on="slides">
             
+            <div ng-switch-default>                
+                <flex-slider slide="s in slides">
+                    <li>
+                        <img ng-src="{{s}}">
+                    </li>
+                </flex-slider>
+            </div>
+            
+            <div ng-switch-when="false">                
+                <img src="/assets/img/featured/{{projectTitle}}.jpg" width="300">
+                <p style="display: inline;">Description of the site goes here</p>
+                <br>
+                <br>            
+            </div>
         </div>
         <p style="margin-top: 20px;" class="skills-list">Click to read about a skill: 
             <!-- <a ng-repeat="(key, value) in project.skills" href="#/projects/fca-handbook#{{key}}">{{value.humanName}}</a> -->

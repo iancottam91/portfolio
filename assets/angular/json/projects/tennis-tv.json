@@ -1,0 +1,25 @@
+{
+    "title" : "Tennis TV",
+    "slideShow" : [
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg",
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg",
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg",
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg"
+      ],
+    "skills" : 
+    	{
+    		"jquery" : {
+    			"humanName" : "jQuery",
+    			"description" : "jQuery was used to post data objects to the back end .net code"
+    		},    	
+    		"javascript" : {
+    			"humanName" : "JavaScript",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		},    	
+    		"html5" : {
+    			"humanName" : "HTML5",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		}
+    	}
+    
+}

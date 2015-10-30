@@ -32,12 +32,20 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 
   function($scope, $routeParams, $http, $ocLazyLoad, $sce) {
 
-    // $scope.skillOnShow = "";
+
+    $scope.slides = false;
+
+    $scope.projectTitle = $routeParams.projectTitle;
 
     // load default option
-    $http.get('assets/angular/json/projects/fca-handbook.json').success(function(data) {
+    $http.get('assets/angular/json/projects/' + $routeParams.projectTitle + '.json').success(function(data) {
       $scope.project = data;
       $scope.skillOnShow = 'jquery';
+
+      if(data.slideShow !== undefined){
+        $scope.slides = data.slideShow;
+      }
+
     });
 
     $scope.changeSkill = function(val){

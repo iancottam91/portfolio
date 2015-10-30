@@ -4,7 +4,7 @@
 // - pluginControllers: our custom module
 
 var porfolioApp = angular.module('porfolioApp', ['ngRoute',
-  'porfolioControllers', 'porfolioDirectives' , 'oc.lazyLoad']);
+  'porfolioControllers', 'porfolioDirectives' , 'oc.lazyLoad', 'angular-flexslider']);
 
 
 // define our routes with the $routeProvider from ngRoute
