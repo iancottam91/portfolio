@@ -1,10 +1,10 @@
 {
     "title" : "Tennis TV",
+    "subtitle" : "The home to ATP world tour streaming. A Mobile first design using JSON APIs.",
     "slideShow" : [
-        "http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg",
-        "http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg",
-        "http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg",
-        "http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg"
+        "/assets/img/slider/tennistv1_.png",
+        "/assets/img/slider/tennistv2_.png",
+        "/assets/img/slider/tennistv3_.png"        
       ],
     "skills" : 
     	{
@@ -15,11 +15,14 @@
     		"javascript" : {
     			"humanName" : "JavaScript",
     			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    		},    	
+    		},
+            "json" : {
+                "humanName" : "JSON",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
     		"html5" : {
     			"humanName" : "HTML5",
     			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     		}
     	}
-    
 }

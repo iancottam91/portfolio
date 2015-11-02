@@ -30,6 +30,7 @@ Skills list:
 
 - jQuery
 - JavaScript
+- JSON
 - php
 - Drupal
 - Sass 
@@ -43,6 +44,7 @@ Skills list:
 - CSS Regression Testing
 - AJAX
 - Local Storage
+- Freemarker
 
 **Could have image carousel at top of page instead**
 
@@ -57,6 +59,7 @@ My Projects:
 - More in depth look at website and projects i've been involved with
 - Project list
 - Filter by skill
+- visit site link
 
 My Experince:
 - Same design as 'Plugins'

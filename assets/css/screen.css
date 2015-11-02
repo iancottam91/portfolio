@@ -239,51 +239,64 @@ p {
 #projects .skill-details img {
   float: left;
 }
+/* line 95, ../sass/_projects.scss */
+#projects .flex-control-nav {
+  bottom: 0;
+}
+/* line 98, ../sass/_projects.scss */
+#projects .flexslider {
+  margin: 0 0 20px;
+}
 
 /* line 15, ../sass/screen.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 22, ../sass/screen.scss */
 .pure-g {
   margin-bottom: 20px;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .top-nav {
   background-color: #bbae99;
   padding: 15px;
   position: relative;
   z-index: 99;
 }
-/* line 29, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .top-nav .menu-heading {
   font-size: 18px;
 }
-/* line 32, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .top-nav a {
   color: #333;
 }
-/* line 35, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 .top-nav .menu-list {
   font-size: 18px;
   float: right;
 }
-/* line 38, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .top-nav .menu-list > li {
   display: inline-block;
   padding-left: 10px;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .pure-g #intro-container {
   text-align: center;
   background-color: #6d595f;
   padding: 60px 80px 40px;
   height: 310px;
 }
-/* line 49, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .pure-g #intro-container .btn {
   display: inline-block;
   margin-top: 30px;
@@ -293,12 +306,12 @@ p {
   font-size: 24px;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .jumbo-box {
   color: white;
   font-size: 35px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .jumbo-box > span {
   padding: 20px 100px;
   border: 2px solid white;
@@ -307,34 +320,34 @@ p {
   line-height: 50px;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .featured-content {
   margin-top: 40px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .featured-content h2 {
   text-align: center;
   text-transform: uppercase;
   color: #555555;
   margin-bottom: 40px;
 }
-/* line 78, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .featured-content .thumbnail {
   text-align: center;
   position: relative;
   margin-bottom: 20px;
 }
-/* line 82, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .featured-content .thumbnail img {
   width: 90%;
   width: calc(100% - 20px);
   border: 1px solid #cccccc;
 }
-/* line 89, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .featured-content .thumbnail .view {
   overflow: hidden;
 }
-/* line 98, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .featured-content .thumbnail .view .mask {
   width: 100%;
   height: 100%;
@@ -343,11 +356,11 @@ p {
   top: 0;
   left: 0;
 }
-/* line 106, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .featured-content .thumbnail .view img {
   position: relative;
 }
-/* line 110, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .featured-content .thumbnail .view h2 {
   text-transform: uppercase;
   color: white;
@@ -358,7 +371,7 @@ p {
   background: rgba(0, 0, 0, 0.75);
   margin: 20px 0 0 0;
 }
-/* line 122, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .featured-content .thumbnail .view p {
   font-family: Georgia, serif;
   font-style: italic;
@@ -369,13 +382,13 @@ p {
   text-align: center;
 }
 @media screen and (min-width: 1280px) {
-  /* line 122, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   .featured-content .thumbnail .view p {
     margin-top: 20px;
     margin-bottom: 10px;
   }
 }
-/* line 139, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .featured-content .thumbnail .view a.info {
   display: inline-block;
   text-decoration: none;
@@ -388,61 +401,61 @@ p {
   border-radius: 5px;
   font-size: 18px;
 }
-/* line 150, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .featured-content .thumbnail .view a.info:hover {
   text-decoration: underline;
 }
-/* line 155, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover {
   box-shadow: 1px 1px 2px #cccccc;
 }
-/* line 158, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .featured-content .thumbnail .view-first img {
   transition: all 0.2s linear;
 }
-/* line 161, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .featured-content .thumbnail .view-first .mask {
   opacity: 0;
   background-color: rgba(187, 174, 153, 0.81);
   transition: all 0.4s ease-in-out;
 }
-/* line 166, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .featured-content .thumbnail .view-first h2 {
   transform: translateY(-100px);
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-/* line 171, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .featured-content .thumbnail .view-first p {
   transform: translateY(100px);
   opacity: 0;
   transition: all 0.2s linear;
 }
-/* line 176, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .featured-content .thumbnail .view-first a.info {
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-/* line 181, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover img {
   transform: scale(1.1);
 }
-/* line 184, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover .mask {
   opacity: 1;
 }
-/* line 189, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover h2,
 .featured-content .thumbnail .view-first:hover p,
 .featured-content .thumbnail .view-first:hover a.info {
   opacity: 1;
   transform: translateY(0px);
 }
-/* line 193, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover p {
   transition-delay: 0.1s;
 }
-/* line 196, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .featured-content .thumbnail .view-first:hover a.info {
   transition-delay: 0.2s;
 }
