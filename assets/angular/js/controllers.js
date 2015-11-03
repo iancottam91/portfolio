@@ -28,9 +28,9 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
 
   }]);
 
-porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http', '$ocLazyLoad', '$sce', 
+porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http', '$ocLazyLoad', '$sce','$location', '$anchorScroll',
 
-  function($scope, $routeParams, $http, $ocLazyLoad, $sce) {
+  function($scope, $routeParams, $http, $ocLazyLoad, $sce,  $location, $anchorScroll) {
 
 
     $scope.slides = false;
@@ -40,7 +40,7 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
     // load default option
     $http.get('assets/angular/json/projects/' + $routeParams.projectTitle + '.json').success(function(data) {
       $scope.project = data;
-      $scope.skillOnShow = 'jquery';
+      $scope.skillOnShow = 'javascript';
 
       if(data.slideShow !== undefined){
         $scope.slides = data.slideShow;
@@ -54,6 +54,8 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
     }
 
     $scope.desc = "true";
+
+
     // the structure of the JSON is tricky to get right, we might need to access a file, by it's skill name. This is the thinking behind fca-handbook.json
 
 

@@ -1,5 +1,17 @@
 #projects{
 	
+	.project-desc{
+		ul{
+			list-style: disc inside;
+			padding-top: 20px;
+			li{
+				margin-bottom: 20px;
+				font-size: $font-size-med;
+	    		line-height: $font-size-large;
+			}
+		}
+	}
+	
 	&.no-fixed-sidebar{
 		.sidebar{		
 			@media screen and (min-width: $width-md){
@@ -67,7 +79,7 @@
 		img{
 			float: left;
 			border: solid 1px #ddd;
-			margin-right: 10px;
+			margin-right: 20px;
 			margin-bottom: 40px;
 		}
 	}
@@ -88,6 +100,7 @@
 		}
 	}
 	.skill-details{
+		min-height: 200px;
 		img{
 			float: left;
 		}

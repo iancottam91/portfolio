@@ -22,9 +22,14 @@
                 </flex-slider>
             </div>
             
-            <div ng-switch-when="false">                
-                <img src="/assets/img/featured/{{projectTitle}}.jpg" width="300">
-                <p style="display: inline;">Description of the site goes here</p>
+            <div class="project-desc" ng-switch-when="false">                
+                <img src="/assets/img/featured/{{projectTitle}}.jpg" width="50%">
+                <ul>
+                    <li>An <a  target="_blank" href="https://www.handbook.fca.org.uk/handbook/PRIN/1/1.html?date=2013-07-23&timeline=True">Interactive Timeline</a> was developed to allow users to browse the handbook at any point in time.</li>
+                    <li>A <a  target="_blank" href="https://www.handbook.fca.org.uk/handbook/BIPRU/1/1.html?date=2013-07-23&timeline=True">Glossary Pop Up</a> module was created to allow for in page Glossary browsing. Click any Glossary term on a content page to see this in action, for example 'bank'.</li>
+                    <li>A <a target="_blank" href="https://www.handbook.fca.org.uk/handbook/CONC/13/1.html">Sticky Sidebar</a> was implemented to ensure all interactions are available wherever the user is in the content.</li>
+                    <li>A <a href="https://www.handbook.fca.org.uk/">Search Autocomplete</a> feature was added to the site search. JavaScript takes the search term and posts it to the dictionary in MarkLogic, displaying the response.</li>
+                </ul>
                 <br>
                 <br>            
             </div>
@@ -41,7 +46,9 @@
 
         <div style="margin-top: 20px;">
             
-            <p class="skill-details" style="display: inline-block; vertical-align: top;"><img width="185" src="/assets/img/logos/{{skillOnShow}}.png" style="margin-right: 20px;">{{project.skills[skillOnShow].description}}</p>
+            <p class="skill-details" style="display: inline-block; vertical-align: top;">
+                <img width="185" src="/assets/img/logos/{{skillOnShow}}.png" style="margin-right: 20px;">{{project.skills[skillOnShow].description}}
+            </p>
         </div>
     </div>
 </div>

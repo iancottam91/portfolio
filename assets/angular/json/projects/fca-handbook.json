@@ -1,14 +1,15 @@
 {
     "title" : "FCA Handbook",
+    "subtitle" : "The digital version of the Financial Conduct Authority's Handbook of rules and guidance.",
     "skills" : 
     	{
+            "javascript" : {
+                "humanName" : "JavaScript",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },      
     		"jquery" : {
     			"humanName" : "jQuery",
     			"description" : "jQuery was used to post data objects to the back end .net code"
-    		},    	
-    		"javascript" : {
-    			"humanName" : "JavaScript",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     		},    	
     		"html5" : {
     			"humanName" : "HTML5",
