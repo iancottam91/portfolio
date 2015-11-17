@@ -31,15 +31,15 @@
     {
       "title": "Smirnoff Mould",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "url": "http://research.legislation.gov.uk/",
-      "imgSrc": "/assets/img/ldri.png",
+      "url": "/#/projects/smirnoff-mould",
+      "imgSrc": "/assets/img/smirnoff.png",
       "hero" : true
     },
     {
       "title": "Doctors Mess",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "url": "http://research.legislation.gov.uk/",
-      "imgSrc": "/assets/img/ldri.png",
+      "url": "http://www.doctorsmess.me.uk",
+      "imgSrc": "/assets/img/mess.png",
       "hero" : true
     },
     {

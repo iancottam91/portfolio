@@ -1,0 +1,20 @@
+{
+    "title" : "Smirnoff Mould",
+    "subtitle" : "A promotional website for Diageo's Smirnoff Ice Vodka",
+    "skills" : 
+    	{
+            "angular" : {
+                "humanName" : "Angular",
+                "description" : ""
+            },
+            "javascript" : {
+                "humanName" : "JavaScript",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },      
+    		"jquery" : {
+    			"humanName" : "jQuery",
+    			"description" : "jQuery was used to post data objects to the back end .net code"
+    		}
+    	}
+    
+}

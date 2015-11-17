@@ -56,10 +56,13 @@ Skills list:
 
 My Projects:
 
-- More in depth look at website and projects i've been involved with
-- Project list
 - Filter by skill
 - visit site link
+- put JSON in mongo
+- better include HTML in JSON
+
+Scroll down:
+https://github.com/Luegg/angularjs-scroll-glue
 
 My Experince:
 - Same design as 'Plugins'

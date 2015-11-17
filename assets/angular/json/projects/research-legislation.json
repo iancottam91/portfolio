@@ -1,0 +1,32 @@
+{
+    "title" : "Research Legislation",
+    "subtitle" : "A new resource for researchers to explore legislation data. Build with Drupal, using a number of custom modules.",
+    "slideShow" : [
+        "/assets/img/slider/ldri1.png",
+        "/assets/img/slider/ldri2.png"        
+      ],
+    "skills" : 
+    	{
+    		"drupal" : {
+    			"humanName" : "Drupal",
+    			"description" : "The Drupal framework was used to create a CMS for the client and handle the complex structure of the data download section."
+    		},
+            "php" : {
+                "humanName" : "PHP",
+                "description" : "Custom modules were required to make requests to external APIs. The Drupal Form api with used alongside custom PHP to create a seemless research experience."
+            },
+            "javascript" : {
+                "humanName" : "JavaScript",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },      
+            "jquery" : {
+                "humanName" : "jQuery",
+                "description" : "jQuery was used to post data objects to the back end .net code"
+            },      
+            "html5" : {
+                "humanName" : "HTML5",
+                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+    	}
+    
+}

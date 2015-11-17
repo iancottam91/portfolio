@@ -48,6 +48,8 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 
     });
 
+    $scope.descUrl = "/assets/angular/html/projects/" + $scope.projectTitle + ".html";
+
     $scope.changeSkill = function(val){
       $scope.skillOnShow = val;
       console.log(val);

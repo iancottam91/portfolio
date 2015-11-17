@@ -1,0 +1,20 @@
+{
+    "title" : "Doctors Mess",
+    "subtitle" : "A food blog for healthy living and weekend treats, built for my wife using wordpress",
+    "slideShow" : [
+        "/assets/img/slider/doctors-mess1.jpg",
+        "/assets/img/slider/doctors-mess2.jpg"       
+      ],
+    "skills" : 
+    	{
+            "wordpress" : {
+                "humanName" : "Wordpress",
+                "description" : ""
+            },
+            "css" : {
+                "humanName" : "CSS",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            }
+    	}
+    
+}
