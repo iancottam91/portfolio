@@ -3,7 +3,8 @@
     "subtitle" : "A food blog for healthy living and weekend treats, built for my wife using wordpress",
     "slideShow" : [
         "/assets/img/slider/doctors-mess1.jpg",
-        "/assets/img/slider/doctors-mess2.jpg"       
+        "/assets/img/slider/doctors-mess2.jpg",
+        "/assets/img/slider/doctors-mess3.jpg"       
       ],
     "skills" : 
     	{

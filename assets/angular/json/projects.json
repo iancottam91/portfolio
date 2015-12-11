@@ -32,14 +32,14 @@
       "title": "Smirnoff Mould",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "/#/projects/smirnoff-mould",
-      "imgSrc": "/assets/img/smirnoff.png",
+      "imgSrc": "/assets/img/smirnoff.jpg",
       "hero" : true
     },
     {
       "title": "Doctors Mess",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "http://www.doctorsmess.me.uk",
-      "imgSrc": "/assets/img/mess.png",
+      "imgSrc": "/assets/img/mess.jpg",
       "hero" : true
     },
     {
