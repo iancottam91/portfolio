@@ -45,21 +45,14 @@
     {
       "title": "Croydon Intranet",
      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "url": "http://research.legislation.gov.uk/",
-      "imgSrc": "/assets/img/ldri.png",
-      "hero" : true
-    },
-    {
-      "title": "Kates Closet",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "url": "http://research.legislation.gov.uk/",
+      "url": "/#/projects/croydon-intranet",
       "imgSrc": "/assets/img/ldri.png",
       "hero" : true
     },
     {
       "title": "BP Offline Product",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "url": "http://research.legislation.gov.uk/",
+      "url": "/#/projects/bp-offline",
       "imgSrc": "/assets/img/ldri.png",
       "hero" : true
     }
