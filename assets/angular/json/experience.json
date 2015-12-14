@@ -1,0 +1,54 @@
+[
+    {
+      "company": "Williams Lea TSO",
+      "roles" : [
+        {          
+          "jobTitle" : "Web Developer",
+          "startDate" : "02/10/2014",
+          "endDate" : "02/10/2014",
+          "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
+          "url": "https://www.handbook.fca.org.uk/",
+          "imgSrc": "/assets/img/fca.jpg",
+          "hero" : true,
+          "skills" : ["jQuery", "javaScript"]
+        }
+      ]
+    },
+    {
+      "company": "Hogarth Worldwide",
+      "roles" : [
+        {
+          "jobTitle" : "Front End Web Developer",
+          "startDate" : "02/10/2014",
+          "endDate" : "02/10/2014",
+          "desc": "Home to live streaming of the ATP & WTA tour. Mobile first design.",
+          "url": "http://www.tennistv.com/",
+          "imgSrc": "/assets/img/ttv.png",
+          "hero" : true
+        }
+      ]
+    },
+    {
+      "company": "Perform Group",
+      "roles" : [
+        {
+          "jobTitle" : "Junior Web Developer",
+          "startDate" : "02/10/2014",
+          "endDate" : "02/10/2014",
+          "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
+          "url": "http://research.legislation.gov.uk/",
+          "imgSrc": "/assets/img/ldri.png",
+          "hero" : true
+        },
+        {
+          "jobTitle" : "Technology Graduate",
+          "startDate" : "02/10/2014",
+          "endDate" : "02/10/2014",
+          "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
+          "url": "http://research.legislation.gov.uk/",
+          "imgSrc": "/assets/img/ldri.png",
+          "hero" : true
+        }
+      ]
+    }   
+]

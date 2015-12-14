@@ -28,9 +28,9 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
 
   }]);
 
-porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http', '$ocLazyLoad', '$sce','$location', '$anchorScroll',
+porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '$http', '$sce','$location', '$anchorScroll',
 
-  function($scope, $routeParams, $http, $ocLazyLoad, $sce,  $location, $anchorScroll) {
+  function($scope, $routeParams, $http,  $sce,  $location, $anchorScroll) {
 
 
     $scope.slides = false;
@@ -75,7 +75,10 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 porfolioControllers.controller('ExperienceCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     
-
+    // can load JSON data with built in http service: https://docs.angularjs.org/tutorial/step_05
+    $http.get('assets/angular/json/experience.json').success(function(data) {
+      $scope.experiences = data;
+    });
 
   }]);
 
