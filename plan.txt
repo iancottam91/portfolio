@@ -50,12 +50,19 @@ Skills list:
 
 TO DO: 
 
-- filter by skills
+- filter by skills - shows some angular interactivity
+
 - skills on list page:
-* add selected style to the one selected
+* add selected style to the one selected - ngclass?
+* maybe a vertical list of skills logos, with one selected and a relevant descriptions
+* maybe a vertical list - with all descriptions present always
+* maybe a two column set of panels, always showing.
+* maybe a vertical list on the left, with a panel on the right that is populated with skill info when clicked.
+
 - skill descriptions on details page
 - logos for stylus, ajax, fallback.
 
+- site descriptions
 - responsive
 
 - visit site link

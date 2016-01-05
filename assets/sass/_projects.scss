@@ -63,12 +63,15 @@
 	.project-skills{
 		margin-top: 8px;
 		margin-right: 6px;
-		a{
+		a, .skill-name{
 			background-color: $gold3;
     		padding: 3px 10px;
     		display: inline-block;
     		text-decoration: none;
     		font-weight: normal;
+		}
+		a{
+			
     		&:hover{
     			text-decoration: underline;
     		}
@@ -88,11 +91,18 @@
     	margin-top: 20px;
 	}
 	.skills-list{
+		h3{
+			display: inline-block;
+			margin-right: 10px;
+		}
 		span, a{
 			background-color: $gold3;
 			padding: 2px 5px;
-			margin-right: 5px;
-			text-decoration: none;
+		    margin-right: 5px;
+		    text-decoration: none;
+		    display: inline-block;
+		    line-height: 20px;
+		    vertical-align: top;
 		}
 		.selected{
 			background-color: $gold4;

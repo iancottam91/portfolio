@@ -57,6 +57,10 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 
     $scope.desc = "true";
 
+    $scope.selectedClass = function(){
+      return 'selected';
+    }
+
 
     // the structure of the JSON is tricky to get right, we might need to access a file, by it's skill name. This is the thinking behind fca-handbook.json
 

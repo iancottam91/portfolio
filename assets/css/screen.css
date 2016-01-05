@@ -212,81 +212,89 @@ strong {
   margin-right: 6px;
 }
 /* line 66, ../sass/_projects.scss */
-#projects .project-skills a {
+#projects .project-skills a, #projects .project-skills .skill-name {
   background-color: #bbae99;
   padding: 3px 10px;
   display: inline-block;
   text-decoration: none;
   font-weight: normal;
 }
-/* line 72, ../sass/_projects.scss */
+/* line 75, ../sass/_projects.scss */
 #projects .project-skills a:hover {
   text-decoration: underline;
 }
-/* line 77, ../sass/_projects.scss */
+/* line 80, ../sass/_projects.scss */
 #projects .project-eyecatcher {
   overflow: hidden;
 }
-/* line 79, ../sass/_projects.scss */
+/* line 82, ../sass/_projects.scss */
 #projects .project-eyecatcher img {
   float: left;
   border: solid 1px #ddd;
   margin-right: 20px;
   margin-bottom: 40px;
 }
-/* line 86, ../sass/_projects.scss */
+/* line 89, ../sass/_projects.scss */
 #projects .project-demo {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 91, ../sass/_projects.scss */
+/* line 94, ../sass/_projects.scss */
+#projects .skills-list h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 98, ../sass/_projects.scss */
 #projects .skills-list span, #projects .skills-list a {
   background-color: #bbae99;
   padding: 2px 5px;
   margin-right: 5px;
   text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
 }
-/* line 97, ../sass/_projects.scss */
+/* line 107, ../sass/_projects.scss */
 #projects .skills-list .selected {
   background-color: #6d595f;
   color: white;
 }
-/* line 102, ../sass/_projects.scss */
+/* line 112, ../sass/_projects.scss */
 #projects .skill-details {
   min-height: 200px;
 }
-/* line 104, ../sass/_projects.scss */
+/* line 114, ../sass/_projects.scss */
 #projects .skill-details img {
   float: left;
 }
-/* line 108, ../sass/_projects.scss */
+/* line 118, ../sass/_projects.scss */
 #projects .flex-control-nav {
   bottom: 0;
 }
-/* line 111, ../sass/_projects.scss */
+/* line 121, ../sass/_projects.scss */
 #projects .flexslider {
   margin: 0 0 20px;
 }
 
-/* line 117, ../sass/_projects.scss */
+/* line 127, ../sass/_projects.scss */
 .project-description:nth-child(n+3) {
   margin-top: 30px;
 }
 
-/* line 121, ../sass/_projects.scss */
+/* line 131, ../sass/_projects.scss */
 .experience-header {
   overflow: hidden;
 }
-/* line 123, ../sass/_projects.scss */
+/* line 133, ../sass/_projects.scss */
 .experience-header h2 {
   float: left;
 }
-/* line 126, ../sass/_projects.scss */
+/* line 136, ../sass/_projects.scss */
 .experience-header img {
   float: right;
   max-height: 50px;
 }
-/* line 129, ../sass/_projects.scss */
+/* line 139, ../sass/_projects.scss */
 .experience-header img.williams-lea-tso {
   height: 35px;
 }
