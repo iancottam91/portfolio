@@ -65,7 +65,7 @@ Scroll down:
 https://github.com/Luegg/angularjs-scroll-glue
 
 My Experince:
-- Same design as 'Plugins'
+- Same design as 'Plugins' but have logo!
 - List of Companies I've worked at, Logo Company name, role
 - Clicking on one brings the 'Company Details' - List more projects here, technologies learnt, link back to My Projects
 - Side projects (could filter by work and side)
