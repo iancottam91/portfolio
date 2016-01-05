@@ -10,14 +10,14 @@
             <div class="projects">
             	<section class="project" ng-repeat="project in projects">
                     <header class="project-header">
-                        <h2 class="project-title"><a href="#/projects/{{project.title.toLowerCase().replace(' ', '-')}}">{{project.title}}</a></h2>                    
+                        <h2 class="project-title"><a href="#/projects/{{project.title.toLowerCase().split(' ').join('-')}}">{{project.title}}</a></h2>                    
                     </header>
                     <div class="project-description">
                         <p>{{project.desc}}</p>
                         <div class="project-skills">
-                        	<a href="#">jQuery</a>
-                        	<!-- <a href="project-timeline-options.php">Options</a> -->
-                        	<a href="assets/downloads/timeline.zip">JavaScript</a>
+                            <!-- <span>Skills Used:</span>
+                            <a style="margin-right: 5px;" href="#" ng-repeat="skill in project.skills">{{skill}}</a> -->
+                            <img height="40px" style="margin-right: 10px;" ng-repeat="skill in project.skills" src="/assets/img/logos/{{skill.toLowerCase().split(' ').join('-')}}.png">
                         </div>
                     </div>
                 </section>

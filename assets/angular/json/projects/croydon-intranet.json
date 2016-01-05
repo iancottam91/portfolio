@@ -1,9 +1,10 @@
 {
-    "title" : "Research Legislation",
-    "subtitle" : "A new resource for researchers to explore legislation data. Built with Drupal, using a number of custom modules.",
+    "title" : "Croydon Intranet",
+    "subtitle" : "A Drupal build for content, event, user managment and more.",
     "slideShow" : [
-        "/assets/img/slider/ldri1.png",
-        "/assets/img/slider/ldri2.png"        
+        "/assets/img/slider/croydon_1.jpg",
+        "/assets/img/slider/croydon_events.jpg",
+        "/assets/img/slider/croydon_lightbox.jpg"     
       ],
     "skills" : 
     	{

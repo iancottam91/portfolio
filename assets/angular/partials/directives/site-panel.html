@@ -3,6 +3,16 @@
     <div class="mask">  
         <h2>{{details.title}}</h2>  
         <p>{{details.desc}}</p>  
-        <a  target="_blank" href="{{details.url}}" class="info">View site</a>  
+
+        <div ng-switch on="details.external">
+		    <div ng-switch-default>
+		        <!-- code to render the regular video block -->
+		        <a  target="_blank" href="{{details.url}}" class="info">View site (external)</a>  
+		    </div>
+		    <div ng-switch-when="false">
+		        <!-- code to render a large video block-->
+		        <a href="{{details.url}}" class="info">View Details</a>  
+		    </div>
+		</div>
     </div>
 </div>

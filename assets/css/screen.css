@@ -126,6 +126,11 @@ p {
 }
 
 /* line 50, ../sass/_typeog.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 53, ../sass/_typeog.scss */
 .btn {
   font-size: 20px;
   border: 1px solid #fff;
@@ -261,6 +266,29 @@ p {
 /* line 111, ../sass/_projects.scss */
 #projects .flexslider {
   margin: 0 0 20px;
+}
+
+/* line 117, ../sass/_projects.scss */
+.project-description:nth-child(n+3) {
+  margin-top: 30px;
+}
+
+/* line 121, ../sass/_projects.scss */
+.experience-header {
+  overflow: hidden;
+}
+/* line 123, ../sass/_projects.scss */
+.experience-header h2 {
+  float: left;
+}
+/* line 126, ../sass/_projects.scss */
+.experience-header img {
+  float: right;
+  max-height: 50px;
+}
+/* line 129, ../sass/_projects.scss */
+.experience-header img.williams-lea-tso {
+  height: 35px;
 }
 
 /* line 15, ../sass/screen.scss */

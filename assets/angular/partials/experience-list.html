@@ -9,18 +9,15 @@
         <div>
             <div class="projects">
             	<section class="project" ng-repeat="experience in experiences">
-                    <header class="project-header">
+                    <header class="experience-header">
                         <h2>{{experience.company}}</h2>
+                        <img class="{{experience.company.toLowerCase().split(' ').join('-')}}" src="assets/img/logos/{{experience.company.toLowerCase().split(' ').join('-')}}.jpg">
                     </header>
                     <div class="project-description" ng-repeat="role in experience.roles">
                         <h3>{{role.jobTitle}}</h3>
                         <p>{{role.startDate}} - {{role.endDate}}</p>
                         <p>{{role.desc}}</p>
-                        <div class="project-skills">
-                        	<a href="#">jQuery</a>
-                        	<!-- <a href="project-timeline-options.php">Options</a> -->
-                        	<a href="assets/downloads/timeline.zip">JavaScript</a>
-                        </div>
+                        <p>{{role.desc2}}</p>
                     </div>
                 </section>
             </div>

@@ -14,14 +14,12 @@ HOME:
 
 TO DO:
 
-1)  Create project details page:
--  Place focus on technologies used (skills list)!
 
-2) Filter projects by skill on projects list
+1) Filter projects by skill on projects list
 
-3) Add data to mongo DB
+2) Add data to mongo DB
 
-4) Skills jumble:
+3) Skills jumble:
 
 Present keywords of skills across a page
 Click a skill to load the details of the project for that skill
@@ -45,31 +43,23 @@ Skills list:
 - AJAX
 - Local Storage
 - Freemarker
+- stylus
 
-**Could have image carousel at top of page instead**
-
-
-
+** Could have image carousel at top of page instead **
 
 
-- Get Started -> My projects 
+TO DO: 
 
-My Projects:
+- filter by skills
+- skills on list page
+- skill descriptions on details page
 
-- Filter by skill
+- responsive
+
 - visit site link
-- put JSON in mongo
-- better include HTML in JSON
 
-Scroll down:
-https://github.com/Luegg/angularjs-scroll-glue
-
-My Experince:
-- Same design as 'Plugins' but have logo!
-- List of Companies I've worked at, Logo Company name, role
-- Clicking on one brings the 'Company Details' - List more projects here, technologies learnt, link back to My Projects
-- Side projects (could filter by work and side)
-
-Contact me:
 - My contact details
+- page titles
+
+
 
