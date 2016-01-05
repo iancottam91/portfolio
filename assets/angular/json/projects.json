@@ -1,12 +1,12 @@
 [
     {
-      "title": "FCA Handbook",
-      "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
-      "url": "https://www.handbook.fca.org.uk/",
-      "imgSrc": "/assets/img/fca.jpg",
-      "hero" : true,
+      "title": "British Pharmacopoeia",
+      "desc": "Browse the official standards for medicines & pharmaceuticals. Built using our publication framework with a number of custom jQuery modules.",
+      "url": "https://www.pharmacopoeia.com/",
+      "imgSrc": "/assets/img/bp.png",
       "external" : true,
-      "skills" : ["jQuery", "javaScript"]
+      "hero" : true,
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX"]
     },
     {
       "title": "Tennis TV",
@@ -14,15 +14,8 @@
       "url": "http://www.tennistv.com/",
       "imgSrc": "/assets/img/ttv.png",
       "external" : true,
-      "hero" : true
-    },
-    {
-      "title": "British Pharmacopoeia",
-      "desc": "Browse the official standards for medicines & pharmaceuticals. Built using our publication framework with a number of custom jQuery modules.",
-      "url": "https://www.pharmacopoeia.com/",
-      "imgSrc": "/assets/img/bp.png",
-      "external" : true,
-      "hero" : true
+      "hero" : true,
+      "skills" : ["jQuery", "JavaScript", "JSON", "Freemarker"]
     },
     {
       "title": "Research Legislation",
@@ -30,7 +23,17 @@
       "url": "/#/projects/research-legislation",
       "external" : false,
       "imgSrc": "/assets/img/ldri.png",
-      "hero" : true
+      "hero" : true,
+      "skills" : ["jQuery", "JavaScript", "php", "Drupal", "Less", "apache", "AJAX"]
+    },
+    {
+      "title": "FCA Handbook",
+      "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
+      "url": "https://www.handbook.fca.org.uk/",
+      "imgSrc": "/assets/img/fca.jpg",
+      "hero" : true,
+      "external" : true,
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage"]
     },
     {
       "title": "Smirnoff Mould",
@@ -38,7 +41,8 @@
       "url": "/#/projects/smirnoff-mould",
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
-      "hero" : true
+      "hero" : true,
+      "skills" : ["JavaScript", "JSON", "AngularJS", "stylus"]
     },
     {
       "title": "Doctors Mess",
@@ -46,7 +50,8 @@
       "url": "http://www.doctorsmess.me.uk",
       "external" : true,
       "imgSrc": "/assets/img/mess.jpg",
-      "hero" : true
+      "hero" : true,
+      "skills" : ["Wordpress"]
     },
     {
       "title": "Croydon Intranet",
@@ -54,7 +59,8 @@
       "url": "/#/projects/croydon-intranet",
       "external" : false,
       "imgSrc": "/assets/img/croydon-sm.jpg",
-      "hero" : true
+      "hero" : true,
+      "skills" : ["php", "Drupal", "JavaScript", "jQuery", "Sass", "Compass"]
     },
     {
       "title": "BP Offline Product",
@@ -62,7 +68,7 @@
       "url": "/#/projects/bp-offline",
       "external" : false,
       "imgSrc": "/assets/img/bp-offline-sm.jpg",
-      "hero" : true
-    }
-          
+      "hero" : true,
+      "skills" : ["php", "NW.js", "jQuery", "JavaScript"]
+    }      
 ]
