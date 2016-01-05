@@ -15,9 +15,10 @@
                     <div class="project-description">
                         <p>{{project.desc}}</p>
                         <div class="project-skills">
-                            <!-- <span>Skills Used:</span>
-                            <a style="margin-right: 5px;" href="#" ng-repeat="skill in project.skills">{{skill}}</a> -->
-                            <img height="40px" style="margin-right: 10px;" ng-repeat="skill in project.skills" src="/assets/img/logos/{{skill.toLowerCase().split(' ').join('-')}}.png">
+                            <span>Skills Used:</span>
+                            <a style="margin-right: 5px;" href="#" ng-repeat="skill in project.skills">{{skill}}</a>
+                            <!-- <h4 style="float: left; margin-right: 20px; line-height: 40px;">Skills Used: </h4>
+                            <img height="40px" style="margin-right: 10px;" alt="{{skill}}" ng-repeat="skill in project.skills" src="/assets/img/logos/{{skill.toLowerCase().split(' ').join('-')}}.png"> -->
                         </div>
                     </div>
                 </section>

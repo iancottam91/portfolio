@@ -29,10 +29,19 @@
                 <br>            
             </div>
         </div>
-        <p style="margin-top: 20px;" class="skills-list">Click to read about a skill: 
+
+        <div class="skills-list" style="overflow: hidden;">
+            
+            <h3 style="float: left; margin-right: 20px;">Skills Used:</h3>
+        <!-- <p style="margin-top: 20px;" class="skills-list">Click to read about a skill:  -->
             <!-- <a ng-repeat="(key, value) in project.skills" href="#/projects/fca-handbook#{{key}}">{{value.humanName}}</a> -->
+            
+                
+            
             <a ng-click="changeSkill(key)" class="skill" ng-repeat="(key, value) in project.skills">{{value.humanName}}</a>
-        </p>
+        </div>
+            
+        <!-- </p> -->
 
         <!-- <p ng-repeat="(key, value) in project.skills">
             <span>{{key}}</span>

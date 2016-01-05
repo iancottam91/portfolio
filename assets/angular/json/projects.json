@@ -24,7 +24,7 @@
       "external" : false,
       "imgSrc": "/assets/img/ldri.png",
       "hero" : true,
-      "skills" : ["jQuery", "JavaScript", "php", "Drupal", "Less", "apache", "AJAX"]
+      "skills" : ["php", "Drupal", "Less", "apache", "AJAX", "jQuery", "JavaScript"]
     },
     {
       "title": "FCA Handbook",
@@ -42,7 +42,7 @@
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
       "hero" : true,
-      "skills" : ["JavaScript", "JSON", "AngularJS", "stylus"]
+      "skills" : ["AngularJS", "JSON", "stylus"]
     },
     {
       "title": "Doctors Mess",

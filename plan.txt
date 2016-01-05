@@ -51,8 +51,10 @@ Skills list:
 TO DO: 
 
 - filter by skills
-- skills on list page
+- skills on list page:
+* add selected style to the one selected
 - skill descriptions on details page
+- logos for stylus, ajax, fallback.
 
 - responsive
 
