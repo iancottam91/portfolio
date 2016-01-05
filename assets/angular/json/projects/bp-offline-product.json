@@ -1,0 +1,20 @@
+{
+    "title" : "British Pharmacopoeia Offline Product",
+    "subtitle" : "The British Pharmacopoeia digital publication as a desktop application.",
+    "skills" : 
+    	{
+            "javascript" : {
+                "humanName" : "JavaScript",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },      
+    		"jquery" : {
+    			"humanName" : "jQuery",
+    			"description" : "jQuery was used to post data objects to the back end .net code"
+    		},    	
+    		"html5" : {
+    			"humanName" : "HTML5",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		}
+    	}
+    
+}

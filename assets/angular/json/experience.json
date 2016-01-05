@@ -4,13 +4,14 @@
       "roles" : [
         {          
           "jobTitle" : "Web Developer",
-          "startDate" : "02/10/2014",
-          "endDate" : "02/10/2014",
-          "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
+          "startDate" : "21/07/2014",
+          "endDate" : "Today",
+          "desc": "I was Front End Tech Lead for the rebuild of the FCA Handbook and British Pharmacopeoia Websites. A shared codebase across the sites required precision and modular code. CSS and JS tests were used to ensure accuracy.",
+          "desc2" : "I've been involved in 3 Drupal web builds, each involving custom PHP modules and precise taxonomies. I am currently tech leading the build of www.research.legislation.gov.uk, a Drupal site used to search and download legislation data.",
           "url": "https://www.handbook.fca.org.uk/",
           "imgSrc": "/assets/img/fca.jpg",
           "hero" : true,
-          "skills" : ["jQuery", "javaScript"]
+          "skills" : ["FCA Handbook", "javaScript"]
         }
       ]
     },
@@ -19,9 +20,10 @@
       "roles" : [
         {
           "jobTitle" : "Front End Web Developer",
-          "startDate" : "02/10/2014",
-          "endDate" : "02/10/2014",
-          "desc": "Home to live streaming of the ATP & WTA tour. Mobile first design.",
+          "startDate" : "07/02/2014",
+          "endDate" : "01/07/2014",
+          "desc": "I built splash pages, microsites, marketing banners and other web based advertising products for Betfair, a client of Hogarth. I developed a master template that was used for all Betfair Arcade, Casino, Poker and Games landing pages.",
+          "desc2" : "My team of four won the 2014 Hack Day with a social media web app, a competition with over 80 participants.",
           "url": "http://www.tennistv.com/",
           "imgSrc": "/assets/img/ttv.png",
           "hero" : true
@@ -33,18 +35,19 @@
       "roles" : [
         {
           "jobTitle" : "Junior Web Developer",
-          "startDate" : "02/10/2014",
-          "endDate" : "02/10/2014",
-          "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
+          "startDate" : "01/06/2013",
+          "endDate" : "30/01/2014",
+          "desc": "I progress to a full time Web Developer after successfully completing the Graduate scheme. I was then involved in the development of a new, responsive TennisTV.com.",
+          "desc2" : "I developed significant features for the 84 Football League player sites, Squash TV and many other sporting websites including Leeds United, Man U TV, FEI and Chelsea FC.",
           "url": "http://research.legislation.gov.uk/",
           "imgSrc": "/assets/img/ldri.png",
           "hero" : true
         },
         {
           "jobTitle" : "Technology Graduate",
-          "startDate" : "02/10/2014",
-          "endDate" : "02/10/2014",
-          "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
+          "startDate" : "01/06/2013",
+          "endDate" : "01/09/2012",
+          "desc": "I joined PERFORM on their graduate training scheme, designed to train me in the following core areas of the technology arm of the business: Web Development, Java Development, Infrastructure, Testing and Quality Assurance.",
           "url": "http://research.legislation.gov.uk/",
           "imgSrc": "/assets/img/ldri.png",
           "hero" : true

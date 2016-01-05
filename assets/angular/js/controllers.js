@@ -74,6 +74,7 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 
 porfolioControllers.controller('ExperienceCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
+
     
     // can load JSON data with built in http service: https://docs.angularjs.org/tutorial/step_05
     $http.get('assets/angular/json/experience.json').success(function(data) {

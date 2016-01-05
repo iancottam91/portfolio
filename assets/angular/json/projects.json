@@ -5,6 +5,7 @@
       "url": "https://www.handbook.fca.org.uk/",
       "imgSrc": "/assets/img/fca.jpg",
       "hero" : true,
+      "external" : true,
       "skills" : ["jQuery", "javaScript"]
     },
     {
@@ -12,6 +13,7 @@
       "desc": "Home to live streaming of the ATP & WTA tour. Mobile first design.",
       "url": "http://www.tennistv.com/",
       "imgSrc": "/assets/img/ttv.png",
+      "external" : true,
       "hero" : true
     },
     {
@@ -19,12 +21,14 @@
       "desc": "Browse the official standards for medicines & pharmaceuticals. Built using our publication framework with a number of custom jQuery modules.",
       "url": "https://www.pharmacopoeia.com/",
       "imgSrc": "/assets/img/bp.png",
+      "external" : true,
       "hero" : true
     },
     {
       "title": "Research Legislation",
       "desc": "Download and analyse The National Archives of the UK Legislation. A Drupal build with a number of custom PHP modules.",
-      "url": "http://research.legislation.gov.uk/",
+      "url": "/#/projects/research-legislation",
+      "external" : false,
       "imgSrc": "/assets/img/ldri.png",
       "hero" : true
     },
@@ -32,13 +36,15 @@
       "title": "Smirnoff Mould",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "/#/projects/smirnoff-mould",
-      "imgSrc": "/assets/img/smirnoff.jpg",
+      "external" : false,
+      "imgSrc": "/assets/img/smirnoff-sm.jpg",
       "hero" : true
     },
     {
       "title": "Doctors Mess",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "http://www.doctorsmess.me.uk",
+      "external" : true,
       "imgSrc": "/assets/img/mess.jpg",
       "hero" : true
     },
@@ -46,14 +52,16 @@
       "title": "Croydon Intranet",
      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "/#/projects/croydon-intranet",
-      "imgSrc": "/assets/img/ldri.png",
+      "external" : false,
+      "imgSrc": "/assets/img/croydon-sm.jpg",
       "hero" : true
     },
     {
       "title": "BP Offline Product",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "/#/projects/bp-offline",
-      "imgSrc": "/assets/img/ldri.png",
+      "external" : false,
+      "imgSrc": "/assets/img/bp-offline-sm.jpg",
       "hero" : true
     }
           

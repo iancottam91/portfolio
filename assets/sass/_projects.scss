@@ -113,3 +113,21 @@
 	}
 
 }
+.project-description{
+	&:nth-child(n+3){
+		margin-top: 30px;
+	}
+}
+.experience-header{
+	overflow: hidden;
+	h2{
+		float: left;
+	}
+	img{
+		float: right;
+		max-height: 50px;
+		&.williams-lea-tso{
+			height: 35px;
+		}
+	}
+}

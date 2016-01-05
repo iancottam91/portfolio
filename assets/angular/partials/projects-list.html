@@ -10,7 +10,7 @@
             <div class="projects">
             	<section class="project" ng-repeat="project in projects">
                     <header class="project-header">
-                        <h2 class="project-title"><a href="#/projects/{{project.title.toLowerCase().replace(' ', '-')}}">{{project.title}}</a></h2>                    
+                        <h2 class="project-title"><a href="#/projects/{{project.title.toLowerCase().split(' ').join('-')}}">{{project.title}}</a></h2>                    
                     </header>
                     <div class="project-description">
                         <p>{{project.desc}}</p>
