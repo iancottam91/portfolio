@@ -14,24 +14,31 @@
 	
 	&.no-fixed-sidebar{
 		.sidebar{		
-			@media screen and (min-width: $width-md){
+			@media screen and (min-width: $width-lg){
 				position: static;
 			}
 		}
 		.content{
-			@media screen and (min-width: $width-md){
+			@media screen and (min-width: $width-lg){
 				margin-left: 0;
 			}
 		}
 	}
 
 	.sidebar{
-		
-		@media screen and (min-width: $width-md){
+
+		padding: 50px 15px 30px;
+    	text-align: center;
+
+
+		@media screen and (min-width: $width-lg){
+
+			padding: 0;
 			position: fixed;
 	    	top: 0;
 	    	bottom: 0;
 	    	padding-top: 50px;
+	    	text-align: left;
 	    	.header{
 	    		margin: 50% 20px 20px;
 	    	}
@@ -46,7 +53,8 @@
 		}
 	}
 	.content{
-		@media screen and (min-width: $width-md){
+		padding: 15px;
+		@media screen and (min-width: $width-lg){
 			margin-left: 25%;
 			padding: 30px;
 		}
