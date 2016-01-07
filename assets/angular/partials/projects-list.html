@@ -6,22 +6,23 @@
         </div>
     </div>
     <div class="content pure-u-1 pure-u-lg-3-4">
-        <div>
-            <!-- text filter -->
-            Filter by skill: <input type="text" ng-model="search">
-            <div>
-                <span>Filter by skill (checkboxes):</span>
-                <label ng-repeat="fruitName in skillsCheckboxes">
-                  <input
-                    type="checkbox"
-                    name="selectedFruits[]"
-                    value="{{fruitName}}"
-                    ng-checked="selectedSkills.indexOf(fruitName) > -1"
-                    ng-click="toggleSelection(fruitName)"
-                  > {{fruitName}}
-                </label>
+        <div class="pure-g projects-list">
+            
+            <div class="pure-u-1 pure-u-lg-1-5 filters">
+                <h3>Filter by skill:</h3>
+                <div class="checkbox-container" ng-repeat="skill in skillsCheckboxes">
+                    <label>
+                      <input
+                        type="checkbox"
+                        value="{{skill}}"
+                        ng-checked="selectedSkills.indexOf(skill) > -1"
+                        ng-click="toggleSelection(skill)"
+                      > {{skill}}
+                    </label>
+                </div>
             </div>
-            <div class="projects">
+
+            <div class="pure-u-1 pure-u-lg-4-5 projects">
                 <!-- <section class="project" ng-repeat="project in projects | filter:{skills:search}"> -->
                 <section class="project" ng-repeat="project in projects | filter:skillFilter">
                     <header class="project-header">
@@ -38,6 +39,7 @@
                     </div>
                 </section>
             </div>
+           
         </div>
     </div>
 </div>

@@ -33,98 +33,60 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
       'JSON',
       'php',
       'Drupal',
-      'Sass ',
+      'Sass',
       'Compass',
       'Less',
       'AngularJS',
-      'EmberJS',
+      // 'EmberJS',
       'Wordpress',
       'apache',
-      'NWjs',
-      'CSS_Regression_Testing',
+      'NW.js',
+      'PhantomJS',
       'AJAX',
-      'Local_Storage',
+      'Local Storage',
       'Freemarker',
-      'stylus'
+      'Stylus'
     ];
 
     $scope.selectedSkills = [
-      'jQuery',
-      'JavaScript',
-      'JSON',
-      'php',
-      'Drupal',
-      'Sass ',
-      'Compass',
-      'Less',
-      'AngularJS',
-      'EmberJS',
-      'Wordpress',
-      'apache',
-      'NWjs',
-      'CSS_Regression_Testing',
-      'AJAX',
-      'Local_Storage',
-      'Freemarker',
-      'stylus'
     ],
 
-    // better to have this the other way round i think - like asos
-
-
-    // if NONE of the skills matching a project and selected, then remove the project from the array
-    $scope.skillFilter = function(projects){
-
-      if ($scope.selectedSkills.length > 0) {
-
-        console.log(projects.skills.length);
-
-        for(i=0;i<projects.skills.length;i++){   
-
-
-          // return to filter out
-          // (more complex as shop is skill is not unique for each project!)
-
-          // if the skill is not in selectedSkills, check the next one, on the last go return if there are no matches.
-
-          // if the skill is in selected skills:
-          if ($.inArray(projects.skills[i], $scope.selectedSkills) >= 0) {
-            // one match is enough, that's good, break from the loop and dont remove the project
-
-             console.log('match for:');
-             console.log(projects.skills[i]);
-             console.log(projects.title);
-
-            break;
-          } else {
-            // if you get to the final skill and that doesnt match, then return and remove the project from the array
-            if(i == projects.skills.length - 1){
-              return
-            }
-          }
-
-        }
-
-      }
-
-      return projects
-    }
-
     // toggle selection for a given fruit by name
-    $scope.toggleSelection = function toggleSelection(fruitName) {
-      var idx = $scope.selectedSkills.indexOf(fruitName);
+    $scope.toggleSelection = function toggleSelection(skill) {
+      var index = $scope.selectedSkills.indexOf(skill);
 
-      // is currently selected
-      if (idx > -1) {
-        $scope.selectedSkills.splice(idx, 1);
+      // if it's selected - remove it on click
+      if (index > -1) {
+        $scope.selectedSkills.splice(index, 1);
       }
 
-      // is newly selected
+      // if its not selected add it on click
       else {
-        $scope.selectedSkills.push(fruitName);
+        $scope.selectedSkills.push(skill);
       }
 
       console.log($scope.selectedSkills);
+
+    };
+
+    $scope.skillFilter = function(project)
+    { 
+        
+        // show all if every box is unchecked
+        if($scope.selectedSkills.length === 0){
+          return true;
+        } else{
+          // check if the skill is matched
+          for(i=0; i<$scope.selectedSkills.length; i++){
+
+            if ($.inArray($scope.selectedSkills[i], project.skills) < 0) {
+              // console.log('not selected');
+              return false;
+            }
+
+          }
+          return true;
+        }
 
     };
 

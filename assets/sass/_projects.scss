@@ -1,4 +1,27 @@
 #projects{
+
+	.projects-list{
+		@media screen and (min-width: $width-lg){
+			position: relative;
+			.filters{
+				margin-left: 80%;
+			}
+			.projects{
+				position: absolute;
+				left: 0;
+				padding-right: 30px;
+			}
+			.checkbox-container{
+				margin-bottom: 6px;
+			}
+			h3{
+				font-weight: bold;
+    			border-bottom: 2px solid;
+    			margin-top: 6px;			
+			}
+
+		}
+	}
 	
 	.project-desc{
 		ul{

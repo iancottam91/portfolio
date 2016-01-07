@@ -6,7 +6,7 @@
       "imgSrc": "/assets/img/bp.png",
       "external" : true,
       "hero" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "PhantomJS"]
     },
     {
       "title": "Tennis TV",
@@ -33,7 +33,7 @@
       "imgSrc": "/assets/img/fca.jpg",
       "hero" : true,
       "external" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage", "PhantomJS"]
     },
     {
       "title": "Smirnoff Mould",
@@ -42,7 +42,7 @@
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
       "hero" : true,
-      "skills" : ["AngularJS", "JSON", "stylus"]
+      "skills" : ["AngularJS", "JSON", "Stylus"]
     },
     {
       "title": "Doctors Mess",
