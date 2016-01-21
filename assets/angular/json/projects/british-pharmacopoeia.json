@@ -2,19 +2,31 @@
     "title" : "British Pharmacopoeia",
     "subtitle" : "Home to the official standards for medicines and pharmaceuticals",
     "skills" : 
-    	{
-            "javascript" : {
-                "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
-            },      
-    		"jquery" : {
+    	[    
+    		{
+                "imgName" : "jquery",
     			"humanName" : "jQuery",
-    			"description" : "jQuery was used to post data objects to the back end .net code"
-    		},    	
-    		"html5" : {
-    			"humanName" : "HTML5",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    			"description" : "jQuery  was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+    		},
+            {
+                "imgName" : "sass",
+                "humanName" : "Sass",
+                "description" : "The Sass CSS pre-processor was used to organise the website styles. Features such as variables, partials, mixins and nested selectors were most useful."
+            }, 
+            {
+                "imgName" : "compass",
+                "humanName" : "Compass",
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
+            }, 
+            {
+                "humanName" : "AJAX",
+                "description" : "AJAX was used to post data to the .net development layer and handle a response. This was used for the 'Share by email' and 'Favourites' section of the site."
+            },    	
+    		{
+                "imgName" : "phantomjs",
+    			"humanName" : "PhantomJS",
+    			"description" : "PhantomJS was combined with other JavaScript libraries to create CSS regression tests for the website. The technique involved taking screenshots of webpage templates and comparing these as development continued to ensure nothing had changed accidently."
     		}
-    	}
+    	]
     
 }

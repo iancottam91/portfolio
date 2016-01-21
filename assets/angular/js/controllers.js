@@ -118,16 +118,7 @@ porfolioControllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', '
 
     $scope.descUrl = "/assets/angular/html/projects/" + $scope.projectTitle + ".html";
 
-    $scope.changeSkill = function(val){
-      $scope.skillOnShow = val;
-      console.log(val);
-    }
 
-    $scope.desc = "true";
-
-    $scope.selectedClass = function(){
-      return 'selected';
-    }
 
 
     // the structure of the JSON is tricky to get right, we might need to access a file, by it's skill name. This is the thinking behind fca-handbook.json

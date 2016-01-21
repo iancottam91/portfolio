@@ -33,6 +33,19 @@
         <div class="skills-list-new">
             <h3>Skills Used</h3>
             <div class="pure-g">
+                <div class="skill-box pure-u-1 pure-u-md-1-2" ng-repeat="skill in project.skills">                    
+                    <div class="skill-border">
+                        <div class="">
+                          <h4>                            
+                            <img ng-show="skill.imgName !== undefined" class="logo" src="/assets/img/logos/{{skill.imgName}}.png">
+                            {{skill.humanName}}
+                          </h4>
+                        </div>
+                        <p>{{skill.description}}</p>
+                    </div>
+                </div>                
+            </div>
+<!--             <div class="pure-g">
                 <div class="skill-box pure-u-1 pure-u-md-1-2">
                     <div class="skill-border">
                         <div class="">
@@ -169,18 +182,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
-        <!-- <div class="skills-list" style="overflow: hidden;">    
-            <h3>Skills Used:</h3>
-            <a ng-click="changeSkill(key)" class="skill" ng-repeat="(key, value) in project.skills">{{value.humanName}}</a>
-        </div>
-        
-        <div style="margin-top: 20px;">
-            <p class="skill-details" style="display: inline-block; vertical-align: top;">
-                <img width="185" src="/assets/img/logos/{{skillOnShow}}.png" style="margin-right: 20px;">{{project.skills[skillOnShow].description}}
-            </p>
-        </div> -->
     </div>
 </div>

@@ -5,28 +5,36 @@
         "/assets/img/slider/ldri1.png",
         "/assets/img/slider/ldri2.png"        
       ],
-    "skills" : 
-    	{
-    		"drupal" : {
-    			"humanName" : "Drupal",
-    			"description" : "The Drupal framework was used to create a CMS for the client and handle the complex structure of the data download section."
-    		},
-            "php" : {
-                "humanName" : "PHP",
-                "description" : "Custom modules were required to make requests to external APIs. The Drupal Form api with used alongside custom PHP to create a seemless research experience."
-            },
-            "javascript" : {
-                "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
-            },      
-            "jquery" : {
-                "humanName" : "jQuery",
-                "description" : "jQuery was used to post data objects to the back end .net code"
-            },      
-            "html5" : {
-                "humanName" : "HTML5",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-    	}
+    "skills" : [
+		{
+            "imgName" : "drupal",
+			"humanName" : "Drupal",
+			"description" : "The Drupal framework was used to create a CMS for the client. Content types were created for different sections of the website and editor permissons created to isolating their access to content only. The Taxonomy module was used to handle the complex structure of the data download section."
+		},
+        {
+            "imgName" : "php",
+            "humanName" : "PHP",
+            "description" : "Custom modules were developed to integrate external APIs. The Drupal Form api was used alongside custom PHP to create a seemless research experience."
+        }, 
+        {
+            "imgName" : "jquery",
+            "humanName" : "jQuery",
+            "description" : "jQuery plugins were developed for the Tabs and Accordion features of the website."
+        },      
+        {
+            "imgName" : "less",
+            "humanName" : "Less",
+            "description" : "The Less CSS pre-processor was used to organise the website styles. Features such as variables, partials, mixins and nested selectors were most useful."
+        },      
+        {
+            "imgName" : "apache",
+            "humanName" : "Apache",
+            "description" : "Proxy rules was writen into the Apache configurating to allow downloads from external resources to appear seemless."
+        },
+        {
+            "humanName" : "AJAX",
+            "description" : "AJAX was used to get data from an api on the fly. This allowed for data to be presented to the user for each year of their search as it is recieved, rather than waiting for every request before showing data."
+        }
+    ]
     
 }
