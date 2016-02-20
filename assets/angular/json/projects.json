@@ -37,7 +37,7 @@
     },
     {
       "title": "Smirnoff Mould",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "desc": "An AngularJS application for users to claim a free ice mould.",
       "url": "/#/projects/smirnoff-mould",
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
@@ -46,7 +46,7 @@
     },
     {
       "title": "Doctors Mess",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "desc": "A food blog full of heathly dinners and tasty treats. Built using Wordpress to allow for simple content management.",
       "url": "http://www.doctorsmess.me.uk",
       "external" : true,
       "imgSrc": "/assets/img/mess.jpg",
@@ -55,7 +55,7 @@
     },
     {
       "title": "Croydon Intranet",
-     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+     "desc": "Croydon Council's internal website, built for user and event management using Drupal.",
       "url": "/#/projects/croydon-intranet",
       "external" : false,
       "imgSrc": "/assets/img/croydon-sm.jpg",
@@ -64,7 +64,7 @@
     },
     {
       "title": "BP Offline Product",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "desc": "An offline version of the British Pharmacopoeia website. Built using NWjs, this creates an application that can be installed to your desktop.",
       "url": "/#/projects/bp-offline",
       "external" : false,
       "imgSrc": "/assets/img/bp-offline-sm.jpg",

@@ -31,6 +31,10 @@ porfolioApp.config(['$routeProvider',
         templateUrl: 'assets/angular/partials/experience-detail.html',
         controller: 'ExperienceDetailCtrl'
       }).
+      when('/contact', {
+        templateUrl: 'assets/angular/partials/contact.html',
+        controller: 'ContactCtrl'
+      }).
       otherwise({
         redirectTo: '/'
       });

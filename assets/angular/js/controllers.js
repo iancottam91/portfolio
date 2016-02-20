@@ -152,3 +152,10 @@ porfolioControllers.controller('ExperienceDetialCtrl', ['$scope', '$routeParams'
     
 
   }]);
+
+porfolioControllers.controller('ContactCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    
+    
+
+  }]);

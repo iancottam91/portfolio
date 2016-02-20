@@ -176,7 +176,7 @@ html {
 		}
 		.view-first .mask {
 		    opacity: 0;
-		    background-color: rgba(187, 174, 153, 0.81);
+		    background-color: rgba(187, 174, 153, 0.92);
 		    transition: all 0.4s ease-in-out;
 		}
 		.view-first h2 {
@@ -216,4 +216,7 @@ html {
 
 
 	}
+}
+.contact-method{
+	margin-bottom: 40px;
 }
