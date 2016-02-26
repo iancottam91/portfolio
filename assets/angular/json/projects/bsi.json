@@ -1,0 +1,37 @@
+
+{
+    "title" : "British Standards Institute",
+    "subtitle" : "The Standards Development platform for the British Standards Institute",
+    "skills" : 
+    	{
+            "angular" : {
+                "imgName" : "angularjs",
+                "humanName" : "Angular",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },
+            "requirejs": {
+                "humanName" : "RequireJS",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },
+            "nodejs" : {
+                "imgName" : "node",
+                "humanName" : "NodeJS",
+                "description" : "jQuery was used to post data objects to the back end .net code"
+            },
+            "protractor" : {
+                "humanName" : "Protractor",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },
+    		"jquery" : {
+                "imgName" : "jquery",
+    			"humanName" : "jQuery",
+    			"description" : "jQuery was used to post data objects to the back end .net code"
+    		},    	
+    		"html5" : {
+                "imgName" : "html5",
+    			"humanName" : "HTML5",
+    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		}
+    	}
+    
+}
