@@ -13,6 +13,14 @@
                 "humanName" : "RequireJS",
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
+            "gulp" : {
+                "humanName" : "gulp",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },
+            "handlebars" :{
+                "humanName" : "handlebars",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            },
             "nodejs" : {
                 "imgName" : "node",
                 "humanName" : "NodeJS",
