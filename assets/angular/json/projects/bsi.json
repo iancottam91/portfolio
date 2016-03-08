@@ -6,7 +6,7 @@
     	{
             "angular" : {
                 "imgName" : "angularjs",
-                "humanName" : "Angular",
+                "humanName" : "AngularJS",
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
             "requirejs": {

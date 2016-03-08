@@ -26,7 +26,11 @@
                 "imgName" : "phantomjs",
     			"humanName" : "PhantomJS",
     			"description" : "PhantomJS was combined with other JavaScript libraries to create CSS regression tests for the website. The technique involved taking screenshots of webpage templates and comparing these as development continued to ensure nothing had changed accidently."
-    		}
+    		},        
+            {
+                "humanName" : "RequireJS",
+                "description" : "RequireJS was used to load relevant scripts only on necessary page. Once the dom has loaded RequireJS checks for html that needed certain JavaScript modules. If those modules are present it loads the relevant scripts."
+            }
     	]
     
 }

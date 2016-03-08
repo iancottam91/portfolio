@@ -2,19 +2,44 @@
     "title" : "FCA Handbook",
     "subtitle" : "The digital version of the Financial Conduct Authority's Handbook of rules and guidance.",
     "skills" : 
-    	{
-            "javascript" : {
+    	[
+            {
+                "imgName" : "javascript",
                 "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete and sticky sidebar."
             },      
-    		"jquery" : {
+    		{
+                "imgName" : "jQuery",
     			"humanName" : "jQuery",
-    			"description" : "jQuery was used to post data objects to the back end .net code"
-    		},    	
-    		"html5" : {
-    			"humanName" : "HTML5",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    		}
-    	}
+    			"description" : "Much of the custom JavaScript functionality was developed as jQuery pluigns. For instance the timeline JS."
+    		},
+            {
+                "humanName" : "AJAX",
+                "description" : "AJAX was crucial in the devlopment of this site. It was used to post data from user interactions to the .net layer and handle a response. For instance, in the Search Autocomplete and the Favourites option."
+            },
+            {
+                "imgName" : "sass",
+                "humanName" : "Sass",
+                "description" : "The Sass CSS pre-processor was used to organise the website styles. Features such as variables, partials, mixins and nested selectors were most useful."
+            }, 
+            {
+                "imgName" : "compass",
+                "humanName" : "Compass",
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
+            },
+            {
+                "imgName" : "phantomjs",
+                "humanName" : "PhantomJS",
+                "description" : "PhantomJS was combined with other JavaScript libraries to create CSS regression tests for the website. The technique involved taking screenshots of webpage templates and comparing these as development continued to ensure nothing had changed accidently."
+            },
+            {
+                "humanName" : "Local Storage",
+                "description" : "Local Storage was used to cache the glossary term Data and minimise requests to the server. Glossary data was encdode to JSON format for storage and decoded for rendering."
+            },        
+            {
+                "humanName" : "RequireJS",
+                "description" : "RequireJS was used to load relevant scripts only on necessary page. Once the dom has loaded RequireJS checks for html that needed certain JavaScript modules. If those modules are present it loads the relevant scripts."
+            }
+    	]
     
 }

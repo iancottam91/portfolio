@@ -7,22 +7,25 @@
         "/assets/img/slider/tennistv3_.png"        
       ],
     "skills" : 
-    	{
-    		"jquery" : {
+    	[
+    		{
     			"humanName" : "jQuery",
+                "imgName" : "jquery",
     			"description" : "jQuery was used to post data objects to the back end .net code"
     		},    	
-    		"javascript" : {
+    		{
     			"humanName" : "JavaScript",
+                "imgName" : "JavaScript",
     			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     		},
-            "json" : {
+            {
                 "humanName" : "JSON",
+                "imgName" : "json",
                 "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
-    		"html5" : {
-    			"humanName" : "HTML5",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    		{
+    			"humanName" : "Freemarker",
+    			"description" : "Freemarker is a templating language that was used to display and format content from the database. In particular on the Tournaments page."
     		}
-    	}
+    	]
 }

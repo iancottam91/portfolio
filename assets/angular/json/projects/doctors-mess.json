@@ -10,11 +10,11 @@
     	{
             "wordpress" : {
                 "humanName" : "Wordpress",
-                "description" : ""
+                "description" : "Wordpress was used to build a clean, engaging website with a simple content management system. Wordpress was chosen due to simplicity and vast range of themes and plugins."
             },
             "css" : {
                 "humanName" : "CSS",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "Custom CSS was required to enchance certain areas of the website as well as setting custom screen widths."
             }
     	}
     

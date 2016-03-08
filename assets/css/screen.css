@@ -369,6 +369,8 @@ strong {
 /* line 24, ../sass/_skills.scss */
 .skills-list-new .skill-box p {
   padding: 0 15px;
+  line-height: 20px;
+  min-height: 60px;
 }
 
 /* line 16, ../sass/screen.scss */

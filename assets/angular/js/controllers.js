@@ -45,7 +45,10 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
       'AJAX',
       'Local Storage',
       'Freemarker',
-      'Stylus'
+      'Stylus',
+      'requireJS',
+      'CSS',
+      'NodeJS'
     ];
 
     $scope.selectedSkills = [

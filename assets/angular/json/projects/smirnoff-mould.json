@@ -2,19 +2,25 @@
     "title" : "Smirnoff Mould",
     "subtitle" : "A promotional website for Diageo's Smirnoff Ice Vodka",
     "skills" : 
-    	{
-            "angular" : {
+    	[
+            {
+                "imgName" : "angularjs",
                 "humanName" : "Angular",
-                "description" : ""
+                "description" : "Views and controllers were used to get user data, this data was processed using a custom service. Responses and error codes were then updated to the views."
             },
-            "javascript" : {
-                "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            {
+                "imgName" : "json",
+                "humanName" : "JSON",
+                "description" : "User's data was collected in AngularJS forms. The data was saved into JSON format for posting to the server layer. JSON responses were processed and rendered to the view."
             },      
-    		"jquery" : {
-    			"humanName" : "jQuery",
-    			"description" : "jQuery was used to post data objects to the back end .net code"
-    		}
-    	}
+    		{
+    			"humanName" : "Stylus",
+    			"description" : "Stylus was used as a CSS preprocessor. Features such as variables, partials, mixins and nested selectors were most useful."
+    		},
+            {
+                "humanName" : "requireJS",
+                "description" : "requireJS was used to load AngularJS and bootstrap the application once the dependencies has initialised."
+            }
+    	]
     
 }

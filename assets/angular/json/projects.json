@@ -6,7 +6,7 @@
       "imgSrc": "/assets/img/bp.png",
       "external" : true,
       "hero" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "PhantomJS"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "PhantomJS", "requireJS"]
     },
     {
       "title": "Tennis TV",
@@ -33,7 +33,7 @@
       "imgSrc": "/assets/img/fca.jpg",
       "hero" : true,
       "external" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage", "PhantomJS"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage", "PhantomJS", "requireJS"]
     },
     {
       "title": "Smirnoff Mould",
@@ -42,7 +42,7 @@
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
       "hero" : true,
-      "skills" : ["AngularJS", "JSON", "Stylus"]
+      "skills" : ["AngularJS", "JSON", "Stylus", "RequireJS"]
     },
     {
       "title": "Doctors Mess",
@@ -51,7 +51,7 @@
       "external" : true,
       "imgSrc": "/assets/img/mess.jpg",
       "hero" : true,
-      "skills" : ["Wordpress"]
+      "skills" : ["Wordpress", "CSS"]
     },
     {
       "title": "Croydon Intranet",
@@ -70,5 +70,14 @@
       "imgSrc": "/assets/img/bp-offline-sm.jpg",
       "hero" : true,
       "skills" : ["php", "NW.js", "jQuery", "JavaScript"]
-    }      
+    },
+    {
+      "title": "BSI",
+      "desc": "Development platform for the British Standards Institute, featuring AngularJS.",
+      "url": "/#/projects/bsi",
+      "imgSrc": "/assets/img/bsi.png",
+      "external" : false,
+      "hero" : false,
+      "skills" : ["AngularJS", "RequireJS", "NodeJS", "Protractor", "AJAX", "PhantomJS", "requireJS"]
+    }     
 ]
