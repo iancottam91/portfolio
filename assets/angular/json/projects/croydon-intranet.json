@@ -9,24 +9,29 @@
     "skills" : 
     	{
     		"drupal" : {
+                "imgName" : "drupal",
     			"humanName" : "Drupal",
-    			"description" : "The Drupal framework was used to create a CMS for the client and handle the complex structure of the data download section."
+    			"description" : "The Drupal framework was used to create a CMS for the client and link into active directory for user managment."
     		},
             "php" : {
+                "imgName" : "php",
                 "humanName" : "PHP",
-                "description" : "Custom modules were required to make requests to external APIs. The Drupal Form api with used alongside custom PHP to create a seemless research experience."
-            },
-            "javascript" : {
-                "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "Custom modules were developed using PHP, such as a social media module."
             },      
             "jquery" : {
+                "imgName" : "jquery",
                 "humanName" : "jQuery",
-                "description" : "jQuery was used to post data objects to the back end .net code"
+                "description" : "jQuery was used to add interactive elements to the website. For example, creating a dialog to house a 'Share this page' form."
             },      
-            "html5" : {
-                "humanName" : "HTML5",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "sass" : {
+                "imgName" : "sass",
+                "humanName" : "Sass",
+                "description" : "The Sass CSS pre-processor was used to organise the website styles. Features such as variables, partials, mixins and nested selectors were most useful."
+            },      
+            "compass" : {
+                "imgName" : "compass",
+                "humanName" : "Compass",
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
             }
     	}
     

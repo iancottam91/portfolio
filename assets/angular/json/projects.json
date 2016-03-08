@@ -70,14 +70,14 @@
       "imgSrc": "/assets/img/bp-offline-sm.jpg",
       "hero" : true,
       "skills" : ["php", "NW.js", "jQuery", "JavaScript"]
-    },
-    {
+    }
+    ,{
       "title": "BSI",
       "desc": "Development platform for the British Standards Institute, featuring AngularJS.",
       "url": "/#/projects/bsi",
       "imgSrc": "/assets/img/bsi.png",
       "external" : false,
       "hero" : false,
-      "skills" : ["AngularJS", "RequireJS", "NodeJS", "Protractor", "AJAX", "PhantomJS", "requireJS"]
+      "skills" : ["AngularJS", "RequireJS", "NodeJS", "Protractor", "Gulp", "PhantomJS", "Handlebars"]
     }     
 ]

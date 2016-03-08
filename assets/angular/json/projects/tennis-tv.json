@@ -11,17 +11,17 @@
     		{
     			"humanName" : "jQuery",
                 "imgName" : "jquery",
-    			"description" : "jQuery was used to post data objects to the back end .net code"
+    			"description" : "Various jQuery plugins were used across the site to provide interactivity. For example, the login dialog and enhanced select menus on the Tournaments page."
     		},    	
     		{
-    			"humanName" : "JavaScript",
-                "imgName" : "JavaScript",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    			"humanName" : "CSS",
+                "imgName" : "css",
+    			"description" : "The bootstrap grid system was used to create this mobile first website. Responsive CSS techniques were used throughout the site."
     		},
             {
                 "humanName" : "JSON",
                 "imgName" : "json",
-                "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "description" : "Content from the CMS was converted to JSON for use on the site. This technique was used on the home page advert and in many other content editable areas."
             },
     		{
     			"humanName" : "Freemarker",

@@ -76,5 +76,11 @@ FINISH:
 - add to linked in
 - use with JOB applications
 
+PAGES LEFT:
+
+- bp offline
+- bsi
+- british pharmacopeia
+
 
 

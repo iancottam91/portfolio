@@ -14,11 +14,11 @@
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
             "gulp" : {
-                "humanName" : "gulp",
+                "humanName" : "Gulp",
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
             "handlebars" :{
-                "humanName" : "handlebars",
+                "humanName" : "Handlebars",
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
             "nodejs" : {
@@ -30,16 +30,10 @@
                 "humanName" : "Protractor",
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
             },
-    		"jquery" : {
-                "imgName" : "jquery",
-    			"humanName" : "jQuery",
-    			"description" : "jQuery was used to post data objects to the back end .net code"
-    		},    	
-    		"html5" : {
-                "imgName" : "html5",
-    			"humanName" : "HTML5",
-    			"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    		}
+            "phantomjs" : {
+                "humanName" : "Phantomjs",
+                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+            }
     	}
     
 }
