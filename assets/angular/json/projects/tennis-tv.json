@@ -15,7 +15,6 @@
     		},    	
     		{
     			"humanName" : "CSS",
-                "imgName" : "css",
     			"description" : "The bootstrap grid system was used to create this mobile first website. Responsive CSS techniques were used throughout the site."
     		},
             {

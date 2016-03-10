@@ -42,7 +42,7 @@
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
       "hero" : true,
-      "skills" : ["AngularJS", "JSON", "Stylus", "RequireJS"]
+      "skills" : ["AngularJS", "JSON", "Stylus", "RequireJS" ,"NodeJS"]
     },
     {
       "title": "Doctors Mess",

@@ -78,9 +78,7 @@ FINISH:
 
 PAGES LEFT:
 
-- bp offline
 - bsi
-- british pharmacopeia
 
 
 

@@ -7,32 +7,34 @@
             "angular" : {
                 "imgName" : "angularjs",
                 "humanName" : "AngularJS",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "AngularJS was used for the heavily interactive 'draft view' area of the site. Users can select which section of a draft to read, comment on it and view other user's comments."
             },
             "requirejs": {
                 "humanName" : "RequireJS",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "RequiredJS was used to load relevant scripts and their dependencies throughtout the site."
             },
             "gulp" : {
+                "imgName" : "gulp",
                 "humanName" : "Gulp",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "Gulp was used as a build tool. It was used to minify files, compile Handlebars templates and for many other automated jobs."
             },
             "handlebars" :{
                 "humanName" : "Handlebars",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "Handlebars was used as a templating engine to create HTML files. This meant sections such as the header and footer could be definied once and resued on every page."
             },
             "nodejs" : {
                 "imgName" : "node",
                 "humanName" : "NodeJS",
-                "description" : "jQuery was used to post data objects to the back end .net code"
+                "description" : "NodeJS was used to create a server and simulate JSON responses from endpoints."
             },
             "protractor" : {
                 "humanName" : "Protractor",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "Protractor was used to create unit tests for the Angular functionality."
             },
             "phantomjs" : {
+                "imgName" : "phantomjs",
                 "humanName" : "Phantomjs",
-                "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete."
+                "description" : "PhantomJS was combined with other JavaScript libraries to create CSS regression tests for the website. The technique involved taking screenshots of webpage templates and comparing these as development continued to ensure nothing had changed accidently."
             }
     	}
     

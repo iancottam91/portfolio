@@ -28,27 +28,27 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
     // list checkbox filters
 
     $scope.skillsCheckboxes = [
-      'jQuery',
-      'JavaScript',
-      'JSON',
-      'php',
-      'Drupal',
-      'Sass',
-      'Compass',
-      'Less',
+      'AJAX',
       'AngularJS',
-      // 'EmberJS',
-      'Wordpress',
-      'apache',
+      'Apache',
+      'Compass',
+      'CSS',
+      'Drupal',
+      'Freemarker',
+      'Gulp',
+      'JavaScript',
+      'jQuery',
+      'JSON',
+      'Less',
+      'Local Storage',
+      'NodeJS',
       'NW.js',
       'PhantomJS',
-      'AJAX',
-      'Local Storage',
-      'Freemarker',
-      'Stylus',
+      'php',
       'requireJS',
-      'CSS',
-      'NodeJS'
+      'Sass',
+      'Stylus',
+      'Wordpress'
     ];
 
     $scope.selectedSkills = [

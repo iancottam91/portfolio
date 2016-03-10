@@ -7,6 +7,11 @@
                 "imgName" : "angularjs",
                 "humanName" : "Angular",
                 "description" : "Views and controllers were used to get user data, this data was processed using a custom service. Responses and error codes were then updated to the views."
+            },            
+            {
+                "imgName" : "node",
+                "humanName" : "NodeJS",
+                "description" : "NodeJS was used to create a server and simulate JSON responses from form endpoints."
             },
             {
                 "imgName" : "json",
@@ -18,8 +23,8 @@
     			"description" : "Stylus was used as a CSS preprocessor. Features such as variables, partials, mixins and nested selectors were most useful."
     		},
             {
-                "humanName" : "requireJS",
-                "description" : "requireJS was used to load AngularJS and bootstrap the application once the dependencies has initialised."
+                "humanName" : "RequireJS",
+                "description" : "RequireJS was used to load AngularJS and bootstrap the application once the dependencies has initialised."
             }
     	]
     
