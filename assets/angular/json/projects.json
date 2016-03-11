@@ -6,7 +6,7 @@
       "imgSrc": "/assets/img/bp.png",
       "external" : true,
       "hero" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "PhantomJS", "requireJS"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "PhantomJS", "RequireJS"]
     },
     {
       "title": "Tennis TV",
@@ -33,7 +33,7 @@
       "imgSrc": "/assets/img/fca.jpg",
       "hero" : true,
       "external" : true,
-      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage", "PhantomJS", "requireJS"]
+      "skills" : ["jQuery", "JavaScript", "Sass", "Compass", "AJAX", "Local Storage", "PhantomJS", "RequireJS"]
     },
     {
       "title": "Smirnoff Mould",

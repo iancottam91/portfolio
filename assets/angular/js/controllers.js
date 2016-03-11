@@ -45,7 +45,7 @@ porfolioControllers.controller('ProjectsCtrl', ['$scope', '$routeParams', '$http
       'NW.js',
       'PhantomJS',
       'php',
-      'requireJS',
+      'RequireJS',
       'Sass',
       'Stylus',
       'Wordpress'
