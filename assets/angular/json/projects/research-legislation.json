@@ -9,12 +9,12 @@
 		{
             "imgName" : "drupal",
 			"humanName" : "Drupal",
-			"description" : "The Drupal framework was used to create a CMS for the client. Content types were created for different sections of the website and editor permissons created to isolating their access to content only. The Taxonomy module was used to handle the complex structure of the data download section."
+			"description" : "The Drupal framework was used to create a CMS for the client. Content types were created for different sections of the website and editor permissions created to isolating their access to content only. The Taxonomy module was used to handle the complex structure of the data download section."
 		},
         {
             "imgName" : "php",
             "humanName" : "PHP",
-            "description" : "Custom modules were developed to integrate external APIs. The Drupal Form api was used alongside custom PHP to create a seemless research experience."
+            "description" : "Custom modules were developed to integrate external APIs. The Drupal Form api was used alongside custom PHP to create a seamless research experience."
         }, 
         {
             "imgName" : "jquery",
@@ -29,11 +29,11 @@
         {
             "imgName" : "apache",
             "humanName" : "Apache",
-            "description" : "Proxy rules was writen into the Apache configurating to allow downloads from external resources to appear seemless."
+            "description" : "Proxy rules were written into the Apache configuration to allow downloads from external resources to appear seamless."
         },
         {
             "humanName" : "AJAX",
-            "description" : "AJAX was used to get data from an api on the fly. This allowed for data to be presented to the user for each year of their search as it is recieved, rather than waiting for every request before showing data."
+            "description" : "AJAX was used to get data from an api on the fly. This allowed for data to be presented to the user for each year of their search as it is received, rather than waiting for every request to finish before showing data."
         }
     ]
     

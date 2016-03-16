@@ -1,7 +1,7 @@
 [
     {
       "title": "British Pharmacopoeia",
-      "desc": "Browse the official standards for medicines & pharmaceuticals. Built using our publication framework with a number of custom jQuery modules.",
+      "desc": "Browse the official standards for medicines & pharmaceuticals: built using our publication framework, with a number of custom jQuery modules.",
       "url": "https://www.pharmacopoeia.com/",
       "imgSrc": "/assets/img/bp.png",
       "external" : true,
@@ -10,7 +10,7 @@
     },
     {
       "title": "Tennis TV",
-      "desc": "Home to live streaming of the ATP & WTA tour. Mobile first design.",
+      "desc": "Home to live streaming of the ATP & WTA tour. A mobile first design.",
       "url": "http://www.tennistv.com/",
       "imgSrc": "/assets/img/ttv.png",
       "external" : true,
@@ -28,7 +28,7 @@
     },
     {
       "title": "FCA Handbook",
-      "desc": "Navigate through the Hanbook Rules and regulations. Interact with the timeline and glossary defintion features to enhance your browsing",
+      "desc": "Navigate through the Handbook Rules and regulations. Interact with the timeline and glossary definition features to enhance your browsing",
       "url": "https://www.handbook.fca.org.uk/",
       "imgSrc": "/assets/img/fca.jpg",
       "hero" : true,
@@ -37,7 +37,7 @@
     },
     {
       "title": "Smirnoff Mould",
-      "desc": "An AngularJS application for users to claim a free ice mould.",
+      "desc": "An AngularJS application, used to claim a free ice mould.",
       "url": "/#/projects/smirnoff-mould",
       "external" : false,
       "imgSrc": "/assets/img/smirnoff-sm.jpg",
@@ -46,7 +46,7 @@
     },
     {
       "title": "Doctors Mess",
-      "desc": "A food blog full of heathly dinners and tasty treats. Built using Wordpress to allow for simple content management.",
+      "desc": "A food blog full of healthy dinners and tasty treats: built using Wordpress to allow for simple content management.",
       "url": "http://www.doctorsmess.me.uk",
       "external" : true,
       "imgSrc": "/assets/img/mess.jpg",
@@ -73,7 +73,7 @@
     }
     ,{
       "title": "BSI",
-      "desc": "Development platform for the British Standards Institute, featuring AngularJS.",
+      "desc": "The development platform for the British Standards Institute, featuring AngularJS.",
       "url": "/#/projects/bsi",
       "imgSrc": "/assets/img/bsi.png",
       "external" : false,

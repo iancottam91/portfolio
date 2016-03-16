@@ -1,6 +1,6 @@
 {
     "title" : "Croydon Intranet",
-    "subtitle" : "A Drupal build for content, event, user managment and more.",
+    "subtitle" : "A Drupal build for content, event, user management and more.",
     "slideShow" : [
         "/assets/img/slider/croydon_1.jpg",
         "/assets/img/slider/croydon_events.jpg",
@@ -11,7 +11,7 @@
     		"drupal" : {
                 "imgName" : "drupal",
     			"humanName" : "Drupal",
-    			"description" : "The Drupal framework was used to create a CMS for the client and link into active directory for user managment."
+    			"description" : "The Drupal framework was used to create a CMS for the client and link into active directory for user management."
     		},
             "php" : {
                 "imgName" : "php",
@@ -31,7 +31,7 @@
             "compass" : {
                 "imgName" : "compass",
                 "humanName" : "Compass",
-                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets were used across the site, in particular on the timeline."
             }
     	}
     

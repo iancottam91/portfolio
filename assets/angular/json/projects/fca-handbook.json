@@ -9,13 +9,13 @@
                 "description" : "JavaScript was used to create a number of custom modules, including the timeline, glossary, full screen, search autocomplete and sticky sidebar."
             },      
     		{
-                "imgName" : "jQuery",
+                "imgName" : "jquery",
     			"humanName" : "jQuery",
-    			"description" : "Much of the custom JavaScript functionality was developed as jQuery pluigns. For instance the timeline JS."
+    			"description" : "Much of the custom JavaScript functionality was developed as jQuery plugins. For instance the timeline JS module."
     		},
             {
                 "humanName" : "AJAX",
-                "description" : "AJAX was crucial in the devlopment of this site. It was used to post data from user interactions to the .net layer and handle a response. For instance, in the Search Autocomplete and the Favourites option."
+                "description" : "AJAX was crucial in the development of this site. It was used to post data from user interactions to the .net layer and handle a response. For instance, in the Search Autocomplete and the Favourites option."
             },
             {
                 "imgName" : "sass",
@@ -25,7 +25,7 @@
             {
                 "imgName" : "compass",
                 "humanName" : "Compass",
-                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets were used across the site, in particular on the timeline."
             },
             {
                 "imgName" : "phantomjs",

@@ -6,7 +6,7 @@
           "jobTitle" : "Web Developer",
           "startDate" : "21/07/2014",
           "endDate" : "Today",
-          "desc": "I was Front End Tech Lead for the rebuild of the FCA Handbook and British Pharmacopeoia Websites. A shared codebase across the sites required precision and modular code. CSS and JS tests were used to ensure accuracy.",
+          "desc": "I was Front End Tech Lead for the rebuild of the FCA Handbook and British Pharmacopoeia Websites. A shared codebase across the sites required precision and modular code. CSS and JS tests were used to ensure accuracy.",
           "desc2" : "I've been involved in 3 Drupal web builds, each involving custom PHP modules and precise taxonomies. I am currently tech leading the build of www.research.legislation.gov.uk, a Drupal site used to search and download legislation data.",
           "url": "https://www.handbook.fca.org.uk/",
           "imgSrc": "/assets/img/fca.jpg",

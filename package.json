@@ -1,0 +1,10 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My development portfolio.",
+  "main": "server.js",
+  "author": "Ian Cottam",
+  "dependencies": {
+    "express": "4.13.4"
+  }
+}

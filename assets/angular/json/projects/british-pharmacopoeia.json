@@ -16,7 +16,7 @@
             {
                 "imgName" : "compass",
                 "humanName" : "Compass",
-                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets was used across the site, in particular on the timeline."
+                "description" : "Compass was used to extend Sass with built in mixins. Compass' excellent tools to create sprite sheets were used across the site, in particular on the timeline."
             }, 
             {
                 "humanName" : "AJAX",

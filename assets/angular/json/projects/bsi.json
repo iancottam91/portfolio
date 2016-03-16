@@ -11,7 +11,7 @@
             },
             "requirejs": {
                 "humanName" : "RequireJS",
-                "description" : "RequiredJS was used to load relevant scripts and their dependencies throughtout the site."
+                "description" : "RequiredJS was used to load relevant scripts and their dependencies throughout the site."
             },
             "gulp" : {
                 "imgName" : "gulp",
@@ -20,7 +20,7 @@
             },
             "handlebars" :{
                 "humanName" : "Handlebars",
-                "description" : "Handlebars was used as a templating engine to create HTML files. This meant sections such as the header and footer could be definied once and resued on every page."
+                "description" : "Handlebars was used as a templating engine to create HTML files. This meant sections such as the header and footer could be defined once and reused on every page."
             },
             "nodejs" : {
                 "imgName" : "node",

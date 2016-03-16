@@ -6,12 +6,12 @@
             "nwjs" : {
                 "imgName" : "nwjs",
                 "humanName" : "NW.js",
-                "description" : "NW.js is a technolgy used for writing native applications with web's most popular technologies."
+                "description" : "NW.js is a technology used for writing native applications with web's most popular technologies."
             },  
             "javascript" : {
                 "imgName" : "javascript",
                 "humanName" : "JavaScript",
-                "description" : "JavaScript was used to create an advanced search, with filters for publication type, region and volume. The advanced serach also supports Boolean operators."
+                "description" : "JavaScript was used to create an advanced search, with filters for publication type, region and volume. The advanced search also supports Boolean operators."
             },
     		"jquery" : {
                 "imgName" : "jquery",
