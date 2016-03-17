@@ -8,9 +8,7 @@
     <div class="content pure-u-1 pure-u-md-3-4">
         <a class="back-link" href="#/projects">Back to projects</a>
         <h2 style="font-weight: bold;" class="project-title">{{project.title}}</h2>
-        <h3>{{project.subtitle}}</h3>
-
-<!--         <div style="height: 250px; width: 300px; border: 1px solid grey; display: inline-block;">Site Img</div> -->       
+        <h3>{{project.subtitle}}</h3>      
 
         <div class="project-eyecatcher" ng-switch on="slides">
             
@@ -23,8 +21,8 @@
             </div>
             
             <div class="project-desc" ng-switch-when="false">                
-                <img src="/assets/img/featured/{{projectTitle}}.jpg" width="50%">
-                <ng-include src="descUrl"></ng-include>
+                <img ng-src="/assets/img/featured/{{projectTitle}}.jpg" width="50%">
+                <ng-include ng-src="descUrl"></ng-include>
                 <br>
                 <br>            
             </div>
@@ -37,7 +35,7 @@
                     <div class="skill-border">
                         <div class="">
                           <h4>                            
-                            <img ng-show="skill.imgName !== undefined" class="logo" src="/assets/img/logos/{{skill.imgName}}.png">
+                            <img ng-show="skill.imgName !== undefined" class="logo" ng-src="/assets/img/logos/{{skill.imgName}}.png">
                             <span>{{skill.humanName}}</span>
                           </h4>
                         </div>
@@ -45,144 +43,6 @@
                     </div>
                 </div>                
             </div>
-<!--             <div class="pure-g">
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/stylus.png">Stylus</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4>Freemarker</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/localstorage.png">Local Storage</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4>Ajax</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/phantomjs.png">Phantom JS</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/apache.png">Apache</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/nwjs.png">NW.js</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/angularjs.png">AngularJS</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/wordpress.png">Wordpress</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/compass.png">Compass</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/less.png">Less</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/drupal.png">Drupal</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/sass.png">Sass</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/JavaScript.png">JavaScript</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/jQuery.png">jQuery</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/json.png">JSON</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-                <div class="skill-box pure-u-1 pure-u-md-1-2">
-                    <div class="skill-border">
-                        <div class="">
-                            <h4><img class="logo" src="/assets/img/logos/php.png">PHP</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </div> -->
         </div>
 
     </div>

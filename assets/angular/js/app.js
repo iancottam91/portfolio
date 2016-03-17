@@ -27,10 +27,6 @@ porfolioApp.config(['$routeProvider',
         templateUrl: 'assets/angular/partials/experience-list.html',
         controller: 'ExperienceCtrl'
       }).
-      when('/experience/:experienceTitle', {
-        templateUrl: 'assets/angular/partials/experience-detail.html',
-        controller: 'ExperienceDetailCtrl'
-      }).
       when('/contact', {
         templateUrl: 'assets/angular/partials/contact.html',
         controller: 'ContactCtrl'

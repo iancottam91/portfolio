@@ -11,7 +11,7 @@
             	<section class="project" ng-repeat="experience in experiences">
                     <header class="experience-header">
                         <h2>{{experience.company}}</h2>
-                        <img class="{{experience.company.toLowerCase().split(' ').join('-')}}" src="assets/img/logos/{{experience.company.toLowerCase().split(' ').join('-')}}.jpg">
+                        <img class="{{experience.company.toLowerCase().split(' ').join('-')}}" ng-src="assets/img/logos/{{experience.company.toLowerCase().split(' ').join('-')}}.jpg">
                     </header>
                     <div class="project-description" ng-repeat="role in experience.roles">
                         <h3>{{role.jobTitle}}</h3>

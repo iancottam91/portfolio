@@ -5,6 +5,7 @@
   "main": "server.js",
   "author": "Ian Cottam",
   "dependencies": {
-    "express": "4.13.4"
+    "express": "4.13.4",
+    "serve-favicon": "2.3.0"
   }
 }
