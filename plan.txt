@@ -77,7 +77,5 @@ http://stackoverflow.com/questions/26245942/how-do-i-leave-node-js-server-on-ec2
 
 - responsive view
 - invalid project redirect
-- fav ico?
-- meta tags
 
 -- replace code and set up IP DNS
